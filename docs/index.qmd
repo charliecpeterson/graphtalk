@@ -1,5 +1,6 @@
 ---
 title: "Using Claude with graphs"
+subtitle: "Slides: [charlespeterson.dev/graphtalk](https://charlespeterson.dev/graphtalk)<br>GitHub repo & resources: [github.com/charliecpeterson/graphtalk](https://github.com/charliecpeterson/graphtalk)"
 author: "Charles Peterson"
 ---
 
