@@ -1,0 +1,119 @@
+<style>
+/* template-charlie: notebook.css
+   Paste this into the <style> block at the top of a dashboard's index.html
+   (dashboard-export bundles one HTML file and has no separate CSS option).
+   No cards, no shadows, no rounded boxes, no row of summary numbers: rules and margins do the separating. */
+
+#dash-root {
+  /* Light: paper. Series colours validated on #f4efe4 (see plate.py). */
+  --paper: #f4efe4; --ink: #1f1d1a; --ink2: #55504a; --muted: #8f887b; --rule: #cdc5b3;
+  --brand: #1C6D72; --teal: #00929B; --amber: #B87800; --rose: #D8435A;
+  --serif: Charter, "Iowan Old Style", Palatino, Georgia, "DejaVu Serif", serif;
+  --mono: Menlo, "DejaVu Sans Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  /* Night notebook. Series colours validated on #1b1a17. */
+  #dash-root { --paper: #1b1a17; --ink: #efe9db; --ink2: #bdb6a6; --muted: #8a8477; --rule: #3a372f;
+               --brand: #4fb0b6; --teal: #139AA3; --amber: #BD8316; --rose: #DB4E63; }
+  body { background: #1b1a17; }
+}
+body { background: var(--paper, #f4efe4); margin: 0; }
+#dash-root { background: var(--paper); color: var(--ink); font-family: var(--serif); font-size: 16px; line-height: 1.5; }
+
+.fp { max-width: 1120px; margin: 0 auto; padding: 28px 0 56px; }
+.fp-head { margin-bottom: 8px; }
+.fp-label { display: flex; align-items: center; gap: 12px; font: 600 11px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--ink2); }
+.fp-label::before { content: ""; width: 30px; height: 7px; background: var(--brand); }
+.fp h1 { font: 700 clamp(26px, 4vw, 38px)/1.12 var(--serif); margin: 14px 0 8px; letter-spacing: -.01em; text-wrap: balance; }
+.fp .deck { font-style: italic; color: var(--ink2); margin: 0 0 14px; max-width: 70ch; }
+.fp-rule { border: 0; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--ink); height: 3px; margin: 0; }
+
+/* Run stub: one mono line saying what this page was built from. Provenance, not a summary.
+   There is deliberately no row of headline numbers or KPI tiles anywhere on the page. */
+.stub { margin: 14px 0 0; font: 11.5px/1.5 var(--mono); color: var(--muted); letter-spacing: .01em; }
+.stub b { color: var(--ink2); font-weight: 600; }
+
+/* A plate: folio numeral in a left gutter, a ruled margin line, the figure, margin notes on the right.
+   Hairlines separate plates; there are no boxes. */
+.plate { display: grid; grid-template-columns: 104px minmax(0, 1fr) 250px; gap: 0 36px; padding: 34px 0 30px; border-bottom: 1px solid var(--rule); }
+.plate:last-of-type { border-bottom: 0; }
+.folio { position: sticky; top: 24px; align-self: start; font: 300 92px/0.85 var(--serif); letter-spacing: -.04em;
+         color: transparent; -webkit-text-stroke: 1px var(--muted); user-select: none; }
+.plate-main { min-width: 0; border-left: 1px solid var(--rule); padding-left: 34px; margin-left: -18px; }
+.plate-title h2 { font: 700 21px/1.25 var(--serif); margin: 0 0 4px; text-wrap: balance; }
+.plate .sub { margin: 0 0 10px; font-style: italic; color: var(--ink2); font-size: 14.5px; }
+.plate svg { display: block; width: 100%; height: auto; overflow: visible; }
+.plate svg text { font-family: var(--serif); fill: var(--ink2); font-size: 12px; }
+.plate svg text.ink { fill: var(--ink); }
+.plate svg text.mono { font-family: var(--mono); font-size: 11px; fill: var(--muted); }
+.plate svg text.it { font-style: italic; font-size: 13.5px; fill: var(--ink); }
+.plate svg .axis { stroke: var(--ink); stroke-width: 1; fill: none; }
+.plate svg .rule { stroke: var(--rule); stroke-width: 1; }
+.plate svg .guide { stroke: var(--muted); stroke-width: 1; stroke-dasharray: 1 3; }
+.plate svg .badge circle { fill: var(--ink); }
+.plate svg .badge circle.ring { fill: none; stroke: var(--ink); stroke-width: 1; }
+.plate svg .badge text { fill: var(--paper); font: 600 10px var(--mono); }
+.plate svg .badge line { stroke: var(--ink); stroke-width: 1; }
+
+.notes { margin: 0; padding: 0; list-style: none; counter-reset: n; font-size: 14.5px; line-height: 1.45; }
+.notes li { position: relative; padding-left: 32px; margin-bottom: 18px; counter-increment: n; }
+.notes li::before { content: counter(n); position: absolute; left: 0; top: 2px; width: 20px; height: 20px; border-radius: 50%; background: var(--ink); color: var(--paper); font: 600 10px/20px var(--mono); text-align: center; }
+
+/* Text tabs instead of pill buttons. */
+.tabs { display: inline-flex; gap: 18px; margin: 2px 0 8px; font-size: 14px; }
+.tabs button { font: inherit; background: none; border: 0; padding: 2px 0; cursor: pointer; color: var(--ink2); border-bottom: 2px solid transparent; }
+.tabs button[aria-pressed=true] { color: var(--ink); border-bottom-color: var(--ink); font-weight: 700; }
+
+.tip { position: absolute; pointer-events: none; opacity: 0; background: var(--paper); border: 1px solid var(--ink); padding: 5px 9px; font: 12px var(--mono); color: var(--ink); white-space: nowrap; z-index: 5; }
+.provenance { margin-top: 22px; padding-top: 10px; border-top: 1px solid var(--rule); font: 11px var(--mono); color: var(--muted); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+@media (max-width: 900px) { .plate { grid-template-columns: 1fr; } .folio { position: static; font-size: 56px; margin-bottom: 8px; }
+  .plate-main { border-left: 0; padding-left: 0; margin-left: 0; } .notes { columns: 2; margin-top: 12px; } }
+</style>
+<div class="fp">
+  <header class="fp-head">
+    <div class="fp-label">Notebook</div>
+    <h1>Bike share, 2025</h1>
+    <p class="deck">Synthetic data from a fictional hilly city. The numbers in the margin match the marks on each plate.</p>
+  </header>
+  <hr class="fp-rule">
+  <p class="stub" id="fp-stub"></p>
+
+  <section class="plate">
+    <div class="folio" aria-hidden="true">01</div>
+    <div class="plate-main">
+      <div class="plate-title"><h2>Members commute; casual riders follow the weather</h2></div>
+      <p class="sub">Trips per day. Thin line is the day, thick line the 7-day mean. Hover for a day.</p>
+      <div class="fig" id="fp-line" style="position:relative"><div class="tip" id="tip1"></div></div>
+    </div>
+    <ol class="notes" id="notes1"></ol>
+  </section>
+
+  <section class="plate">
+    <div class="folio" aria-hidden="true">02</div>
+    <div class="plate-main">
+      <div class="plate-title"><h2>The weekday and the hour decide who is on the road</h2></div>
+      <p class="sub">Average trips per hour. Circle area is proportional to trips, on one scale for both rider types.</p>
+      <div class="fig" style="position:relative">
+        <div class="tabs" role="group" aria-label="Rider type">
+          <button type="button" data-rt="member" aria-pressed="true">Members</button>
+          <button type="button" data-rt="casual" aria-pressed="false">Casual riders</button>
+        </div>
+        <div id="fp-dots"></div><div class="tip" id="tip2"></div>
+      </div>
+    </div>
+    <ol class="notes" id="notes2"></ol>
+  </section>
+
+  <section class="plate">
+    <div class="folio" aria-hidden="true">03</div>
+    <div class="plate-main">
+      <div class="plate-title"><h2>Every neighborhood gained e-bikes; the city share moved the other way</h2></div>
+      <p class="sub">Share of trips on e-bikes, January to June (open circle) to July to December (arrow tip).</p>
+      <div class="fig" id="fp-dumb" style="position:relative"><div class="tip" id="tip3"></div></div>
+    </div>
+    <ol class="notes" id="notes3"></ol>
+  </section>
+
+  <footer class="provenance"><span>template-charlie</span><span>drawn from the files named in the stub above</span></footer>
+</div>

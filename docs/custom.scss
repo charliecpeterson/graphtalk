@@ -1,0 +1,984 @@
+/*-- scss:defaults --*/
+
+// ── Brand colors ──────────────────────────────────────────────────────────────
+$brand-cyan:       #6AD1E3;
+$brand-green:      #21A364;
+$brand-teal:       #1C6D72;
+$brand-dark:       #2a2a2a;
+$brand-mid:        #666666;
+$brand-bg:   #ffffff;
+$brand-link:       #0066cc;
+$brand-accent:     #E35B6A;   // use sparingly for warnings/highlights
+
+// ── Sidebar stripe ────────────────────────────────────────────────────────────
+$sidebar-width:   3.5%;
+$sidebar-grad:    linear-gradient(180deg, $brand-cyan 0%, $brand-green 45%, $brand-teal 100%);
+
+// ── Typography ────────────────────────────────────────────────────────────────
+$font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-monospace:  'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+$presentation-font-size-root: 32px;
+$presentation-line-height: 1.5;
+
+// ── Reveal.js overrides ───────────────────────────────────────────────────────
+$body-bg:         $brand-bg;
+$body-color:      $brand-dark;
+$link-color:      $brand-link;
+$code-block-bg:   #f6f8fa;
+
+// ── Mermaid diagram theming ───────────────────────────────────────────────────
+// Quarto maps these onto mermaid's CSS variables (see quarto.org/docs/authoring/
+// diagrams.html), so ```{mermaid} blocks pick up the brand automatically.
+$mermaid-bg-color:          $brand-bg;
+$mermaid-edge-color:        $brand-mid;
+$mermaid-node-bg-color:     #e4f1f2;            // light teal node fill
+$mermaid-node-fg-color:     $brand-dark;
+$mermaid-fg-color:          $brand-teal;        // node borders
+$mermaid-fg-color--lighter: $brand-cyan;
+$mermaid-fg-color--lightest:#d5ecf1;
+$mermaid-label-bg-color:    $brand-bg;
+$mermaid-label-fg-color:    $brand-dark;
+$mermaid-font-family:       'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+/*-- scss:rules --*/
+
+// ── Left sidebar stripe ───────────────────────────────────────────────────────
+body {
+  background-color: $brand-bg;
+  color: $brand-dark;
+  font-family: $font-family-sans-serif;
+  line-height: $presentation-line-height;
+}
+
+// Sidebar stripe lives on .reveal (not body) so we can hide it cleanly
+// on dark-background section slides via .reveal.has-dark-background::before.
+.reveal {
+  position: relative;
+}
+
+.reveal::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: $sidebar-width;
+  height: 100%;
+  background: $sidebar-grad;
+  z-index: 2;   // above slide content so it's always visible on white slides
+  pointer-events: none;
+}
+
+// ── Slide menu button (hamburger) ─────────────────────────────────────────────
+// Quarto hardcodes left:30px which sits inside the sidebar stripe (~45px wide).
+// Move it just outside the stripe onto the white background.
+.reveal .slide-menu-button {
+  left: calc(#{$sidebar-width} + 8px) !important;
+  bottom: 8px !important;
+  opacity: 0.35;
+  transition: opacity 0.2s;
+
+  &:hover { opacity: 0.85; }
+}
+
+// ── Bottom rule ───────────────────────────────────────────────────────────────
+// Sits above Quarto's footer stack (text at 18px, slide# at 10px, menu at 8px)
+// and their line-heights (~22px), so at bottom: 52px the rule is clearly
+// above everything. The rule acts as the visual divider between slide content
+// and the metadata row below it. Per-slide `::: footer` citations also render
+// in that row, below the rule.
+.reveal::after {
+  content: '';
+  position: absolute;
+  left: 42px; right: 0; bottom: 52px;
+  height: 2px;
+  background: linear-gradient(to right, $brand-teal 0%, $brand-cyan 30%, rgba($brand-cyan, 0.2) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+// ── Title slide ───────────────────────────────────────────────────────────────
+.reveal .slides section#title-slide {
+  text-align: left;
+  padding-left: calc(#{$sidebar-width} + 2.5rem);
+  padding-right: 3rem;
+
+  .title {
+    font-size: 2.6em;
+    font-weight: 700;
+    color: $brand-dark;
+    line-height: 1.15;
+    padding-left: 1rem;
+    border-left: 5px solid $brand-teal;
+    margin-bottom: 0.6rem;
+  }
+
+  .subtitle {
+    font-size: 1em;
+    color: $brand-teal;
+    font-weight: 400;
+    padding-left: 1.3rem;
+    margin-bottom: 1.8rem;
+  }
+
+  // Force left-alignment on all title metadata
+  // (section has class "center" from revealjs which applies text-align:center)
+  p, .date {
+    text-align: left !important;
+    font-size: 0.72em;
+    color: $brand-mid;
+    padding-left: 1.3rem;
+    margin-top: 0.15em;
+  }
+
+  // Author is nested: .quarto-title-authors > .quarto-title-author > .quarto-title-author-name
+  // revealjs/quarto applies centering deep in the tree; em units compound across
+  // levels so only set font-size on the outermost wrapper.
+  .quarto-title-authors {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: left !important;
+    padding-left: 1.3rem;
+    font-size: 0.72em;   // set once here — not on children
+    color: $brand-mid;
+    margin-top: 0.15em;
+  }
+  .quarto-title-authors .quarto-title-author,
+  .quarto-title-authors .quarto-title-author-name {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: left !important;
+    font-size: 1em;      // inherit, don't compound
+    color: inherit;
+  }
+}
+
+// ── Slide headings ────────────────────────────────────────────────────────────
+h2 {
+  font-size: 1.35em;
+  font-weight: 700;
+  color: $brand-dark;
+  letter-spacing: -0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  flex-wrap: wrap;
+
+  // Vertical bar accent — echoes the title slide's teal left-bar
+  // Reads as a deliberate design element, not a bullet
+  &::before {
+    content: '';
+    flex-shrink: 0;
+    display: inline-block;
+    width: 5px;
+    height: 1em;
+    background: linear-gradient(180deg, $brand-cyan 0%, $brand-teal 100%);
+    border-radius: 3px;
+    position: relative;
+    top: 0.08em;
+  }
+
+  // Gradient underline
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    flex-basis: 100%;
+    height: 3px;
+    background: linear-gradient(to right, $brand-teal 0%, $brand-cyan 40%, rgba($brand-cyan, 0.15) 100%);
+    border-radius: 2px;
+    margin-top: 0.25em;
+  }
+}
+
+// ── Custom slide-type icons ───────────────────────────────────────────────────
+// Opt-in per slide. Replace the default vertical bar with a topic-specific
+// SVG icon (Lucide-style 24×24 stroke art, stroke = $brand-teal as %231C6D72).
+//
+// Usage:  ## My Heading {.slide-code}
+// The class lands on the <section> so selectors use: .slide-X h2::before
+// To add an icon: one map entry below + a row in slide-patterns.md.
+//
+// Available:
+//   .slide-code    — >_ terminal prompt   (CLI commands, code examples)
+//   .slide-data    — bar chart            (results, benchmarks, performance)
+//   .slide-compute — CPU chip             (hardware, resources, allocation)
+//   .slide-flow    — >> double chevron    (workflow, setup steps, process)
+//   .slide-cluster — triangle of nodes    (distributed, multi-node, parallel)
+//   .slide-ai      — bot head             (AI assistants, LLMs, agents)
+//   .slide-storage — database cylinder    (data, filesystems, quotas)
+//   .slide-doc     — text document        (docs, papers, config files)
+//   .slide-chem    — conical flask        (chemistry, experiments, simulations)
+//   .slide-net     — globe                (networking, APIs, remote access)
+//   .slide-secure  — padlock              (auth, credentials, allocations)
+//   .slide-fix     — wrench               (troubleshooting, debugging, config)
+//   .slide-perf    — gauge                (performance, tuning, optimization)
+
+// Shared override: swap bar for SVG icon
+%slide-icon-base {
+  h2::before {
+    width: 1.15em !important;
+    height: 1.15em !important;
+    border-radius: 0 !important;
+    top: 0.03em !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
+}
+
+$slide-icons: (
+  code:    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='4 9 9 12 4 15'/><line x1='12' y1='15' x2='20' y2='15'/></svg>",
+  data:    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><line x1='3' y1='20' x2='21' y2='20'/><rect x='4' y='13' width='3' height='7'/><rect x='10.5' y='8' width='3' height='12'/><rect x='17' y='4' width='3' height='16'/></svg>",
+  compute: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='1.8' stroke-linecap='round'><rect x='7' y='7' width='10' height='10' rx='1'/><line x1='9' y1='7' x2='9' y2='4'/><line x1='15' y1='7' x2='15' y2='4'/><line x1='9' y1='17' x2='9' y2='20'/><line x1='15' y1='17' x2='15' y2='20'/><line x1='7' y1='9' x2='4' y2='9'/><line x1='7' y1='15' x2='4' y2='15'/><line x1='17' y1='9' x2='20' y2='9'/><line x1='17' y1='15' x2='20' y2='15'/></svg>",
+  flow:    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='5 6 12 12 5 18'/><polyline points='12 6 19 12 12 18'/></svg>",
+  cluster: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round'><circle cx='12' cy='4' r='2'/><circle cx='4' cy='19' r='2'/><circle cx='20' cy='19' r='2'/><line x1='12' y1='6' x2='5' y2='17'/><line x1='12' y1='6' x2='19' y2='17'/><line x1='6' y1='19' x2='18' y2='19'/></svg>",
+  ai:      "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='3.5' r='1.5'/><line x1='12' y1='5' x2='12' y2='8'/><rect x='4' y='8' width='16' height='12' rx='2'/><line x1='9' y1='13' x2='9' y2='15'/><line x1='15' y1='13' x2='15' y2='15'/></svg>",
+  storage: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round'><ellipse cx='12' cy='5' rx='8' ry='3'/><path d='M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5'/><path d='M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3'/></svg>",
+  doc:     "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z'/><polyline points='14 3 14 9 20 9'/><line x1='8' y1='13' x2='16' y2='13'/><line x1='8' y1='17' x2='16' y2='17'/></svg>",
+  chem:    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M9.5 3v5.5L4.7 18.6a1.6 1.6 0 0 0 1.5 2.4h11.6a1.6 1.6 0 0 0 1.5-2.4L14.5 8.5V3'/><line x1='8' y1='3' x2='16' y2='3'/><line x1='6.8' y1='14' x2='17.2' y2='14'/></svg>",
+  net:     "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round'><circle cx='12' cy='12' r='9'/><line x1='3' y1='12' x2='21' y2='12'/><ellipse cx='12' cy='12' rx='4' ry='9'/></svg>",
+  secure:  "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='11' width='14' height='9' rx='2'/><path d='M8 11V7a4 4 0 0 1 8 0v4'/></svg>",
+  fix:     "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z'/></svg>",
+  perf:    "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231C6D72' stroke-width='2' stroke-linecap='round'><path d='M3.5 17a9 9 0 1 1 17 0'/><line x1='12' y1='16' x2='16.2' y2='9.8'/><circle cx='12' cy='16' r='1.4'/></svg>",
+);
+
+@each $name, $svg in $slide-icons {
+  .slide-#{$name} {
+    @extend %slide-icon-base;
+    h2::before {
+      background-image: url("data:image/svg+xml,#{$svg}") !important;
+      background: none;
+    }
+  }
+}
+
+h3 {
+  font-size: 1.05em;
+  color: $brand-teal;
+  font-weight: 600;
+  margin-top: 0.4em;
+}
+
+// ── Hide sidebar stripe + bottom rule on dark-background section slides ───────
+// revealjs adds .has-dark-background to .reveal when the active slide has a
+// dark background. The sidebar stripe and bottom rule look like artifacts on
+// those slides, so suppress them.
+.reveal.has-dark-background::before,
+.reveal.has-dark-background::after {
+  display: none !important;
+}
+
+// ── Section title slides ──────────────────────────────────────────────────────
+.reveal section.has-dark-background {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    color: #ffffff;
+    font-size: 2.4em;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    position: relative;
+    padding-bottom: 0.55em;
+
+    // Gradient rule — matches body bottom rule language
+    &::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, rgba(#ffffff, 0.7), rgba(#ffffff, 0.15));
+      margin: 0.4em auto 0;
+      border-radius: 2px;
+    }
+  }
+}
+
+// ── Links ─────────────────────────────────────────────────────────────────────
+a {
+  color: $brand-link;
+  text-decoration: none;
+
+  &:hover   { text-decoration: underline; }
+  &:focus   { outline: 2px solid $brand-teal; }
+}
+
+// ── Code blocks ───────────────────────────────────────────────────────────────
+pre, code {
+  font-family: $font-family-monospace;
+  background-color: $code-block-bg;
+  border-radius: 5px;
+}
+
+// reveal ships `.reveal pre { font-size: .55em }`, which outranks a bare `pre`
+// rule (0,1,1 vs 0,0,1) — so block code renders tiny unless overridden at
+// matching specificity. `.reveal pre code` is `inherit`, so code text follows.
+// This compounds with any .text-* wrapper (e.g. .text-md → 0.92 × 0.75), which
+// is the intended behaviour.
+.reveal pre { font-size: 0.88em; }
+
+// reveal forces `.reveal pre.sourceCode code { white-space: pre }` (0,2,2), which
+// outranks both `pre>code.sourceCode{pre-wrap}` and Quarto's `code-overflow: wrap`
+// — so on SCREEN long lines scroll sideways (a scrollbar you can't use mid-talk;
+// it only wraps in print, which is why decktape hides the bug). Force wrapping.
+.reveal div.sourceCode pre code {
+  white-space: pre-wrap;
+  word-break: normal;          // don't split identifiers/numbers mid-character
+  overflow-wrap: break-word;   // wrap at spaces; break only a token too long to fit
+}
+
+// div.sourceCode is overflow:auto and the pre sizes ~19px wider than it (box
+// model), so even wrapped code that fits shows a phantom horizontal scrollbar.
+// Make the pre fit its container so the scrollbar never appears.
+.reveal div.sourceCode pre { box-sizing: border-box; max-width: 100%; width: 100%; }
+
+pre {
+  padding: 0.65em 0.9em;
+  border-left: 3px solid $brand-teal;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+}
+
+// ── Callouts ──────────────────────────────────────────────────────────────────
+.callout-note    { border-left-color: $brand-cyan  !important; }
+.callout-tip     { border-left-color: $brand-green !important; }
+.callout-warning { border-left-color: $brand-accent !important; }
+
+// ── Utility font-size classes ─────────────────────────────────────────────────
+// Usage: ::: {.text-xs}  ... :::
+.text-xs   { font-size: 0.62em; }
+.text-sm   { font-size: 0.65em; }
+.text-md   { font-size: 0.75em; }
+.text-lg   { font-size: 0.90em; }
+.text-xl   { font-size: 1.10em; }
+
+// ── Layout helpers ────────────────────────────────────────────────────────────
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.highlight-box {
+  background: lighten($brand-cyan, 30%);
+  border-left: 4px solid $brand-teal;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  margin: 0.5em 0;
+}
+
+.accent-box {
+  background: lighten($brand-accent, 35%);
+  border-left: 4px solid $brand-accent;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  margin: 0.5em 0;
+}
+
+// ── Terminal chrome on code blocks ────────────────────────────────────────────
+// Adds a language header bar inside each fenced code block automatically.
+// Quarto puts the language class on the <pre> element (e.g. pre.bash, pre.python).
+// No markup changes needed; purely CSS-driven.
+//
+// Supported: .bash / .sh / .shell, .python, .r
+// All other languages get a neutral "{ } CODE" strip.
+
+div.sourceCode pre {
+  position: relative;
+  padding-top: 2em;        // room for the inline header label
+  border-left: none;       // suppress default teal left-border (replaced by header)
+  border-radius: 6px;
+
+  // Default label — neutral gray for unlabeled blocks
+  &::before {
+    content: '\007B \007D  CODE';   // { }  CODE
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1.65em;
+    background: $brand-mid;
+    color: rgba(#ffffff, 0.88);
+    font-family: $font-family-monospace;
+    font-size: 0.64em;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    display: flex;
+    align-items: center;
+    padding-left: 0.85em;
+    border-radius: 6px 6px 0 0;
+  }
+
+  // Bash / shell
+  &.bash::before,
+  &.sh::before,
+  &.shell::before {
+    content: '$ _  BASH';
+    background: $brand-teal;
+  }
+
+  // Python
+  &.python::before {
+    content: '>>>  PYTHON';
+    background: #2e5a8a;
+  }
+
+  // R
+  &.r::before {
+    content: '>  R';
+    background: #3a6b3a;
+  }
+
+  // Terminal output — dark background, green-tinted text
+  // Usage: ```{.output}
+  &.output {
+    background: #1e2820;
+    color: #b8d4b0;
+    border-left: none;
+
+    &::before {
+      content: '▶  OUTPUT';
+      background: #1a2a1a;
+      color: rgba(#b8d4b0, 0.85);
+    }
+
+    // Force the terminal-green color onto the highlight spans too — Quarto wraps
+    // output in syntax-coloured <span>s (dark blue), invisible on the dark bg.
+    code,
+    code span {
+      background: transparent;
+      color: #cfe8c4 !important;
+    }
+  }
+}
+
+// Copy button: `code-copy: true` makes it always-on (default is hover-only).
+// Quarto ships it faint, gates the glyph on pre:hover, and adds a 5px corner
+// margin that jams it into the header. Make it an obvious copy/paste button:
+// a white chip with a teal clipboard glyph, sitting just below the header bar.
+// White works on BOTH the light code blocks and the dark .output block, and the
+// success checkmark (teal/green, inherits currentColor) reads on white — a dark
+// chip hid it on the dark output background.
+.reveal div.sourceCode {
+  position: relative;
+
+  .code-copy-button {
+    z-index: 12;               // above the language-header ::before bar
+    top: 1.9em;                // clear the ~22px header bar (button font ~13px, so 1.9em ≈ 25px)
+    right: 0.6em;              // inset from the right edge (no sideways scroll to reach it)
+    margin: 0;                 // kill Quarto's 5px corner offset
+    padding: 0.15em 0.45em;
+    background: #ffffff;
+    border: 1px solid rgba($brand-teal, 0.55);
+    border-radius: 5px;
+    color: $brand-teal;        // clipboard + check glyph inherit this
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+
+    &:hover { background: lighten($brand-teal, 62%); }
+
+    .bi::before { display: inline-block !important; }   // don't wait for hover
+  }
+}
+
+// ── Scrollable artifact blocks ─────────────────────────────────────────────────
+// Wrap a long code/text block in ::: {.scroll-box} ... ::: so it stays inside the
+// slide and scrolls inside its own fixed height. Built for showing full SKILL.md
+// files, long AI transcripts, or example output the audience can scroll through
+// and copy (Quarto's per-block copy button still works inside the box).
+//
+// `.scroll-box` caps at ~460px (full-column). `.scroll-box.tall` allows more for
+// a slide whose whole point is the artifact. Tune during visual QA, not here.
+.scroll-box {
+  pre {
+    max-height: 460px;
+    overflow-y: auto;
+  }
+
+  // reveal gives the inner <code> its OWN `overflow:auto; max-height:400px`, so a
+  // tall block scrolls twice — once on <code>, once on the .scroll-box <pre>
+  // ("two scrollbars"). Neutralise the inner one so only the <pre> scrolls.
+  pre code { overflow: visible; max-height: none; }
+
+  &.tall pre { max-height: 600px; }
+  &.short pre { max-height: 340px; }
+  &.shorter pre { max-height: 265px; }
+
+  // Rendered-markdown variant: the box itself scrolls. For transcripts shown
+  // as rendered markdown (headings, tables, bold) instead of a code fence.
+  &.prose {
+    max-height: 540px;
+    overflow-y: auto;
+    border: 1px solid rgba($brand-teal, 0.35);
+    border-radius: 8px;
+    background: #fcfcfc;
+    padding: 0.2em 0.9em;
+  }
+
+  // Brand the one scrollbar so it reads as the intended scroll region rather
+  // than a stray browser bar. (Code wraps via code-overflow: wrap, so this is
+  // the only scrollbar in the box — no horizontal bar.)
+  pre, &.prose {
+    scrollbar-width: thin;
+    scrollbar-color: rgba($brand-teal, 0.55) transparent;
+
+    &::-webkit-scrollbar { width: 10px; }
+    &::-webkit-scrollbar-track { background: transparent; }
+    &::-webkit-scrollbar-thumb {
+      background: rgba($brand-teal, 0.55);
+      border-radius: 6px;
+    }
+    &::-webkit-scrollbar-thumb:hover { background: rgba($brand-teal, 0.8); }
+  }
+}
+
+// ── Stat / metric cards ───────────────────────────────────────────────────────
+// Usage:
+//   ::: {.stat-row}
+//   ::: {.stat-card}
+//   **80 GB**
+//   VRAM (A100)
+//   :::
+//   :::
+//
+// Cards lay out in a horizontal flex row. Each card centers a large number
+// above a small label. Stack 2–4 cards per row comfortably.
+
+.stat-row {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0.5em 0;
+}
+
+.stat-card {
+  flex: 1 1 auto;
+  min-width: 6em;
+  background: linear-gradient(135deg, lighten($brand-teal, 62%) 0%, lighten($brand-cyan, 20%) 100%);
+  border: 1.5px solid rgba($brand-teal, 0.25);
+  border-top: 3px solid $brand-teal;
+  border-radius: 6px;
+  padding: 0.5em 0.8em 0.55em;
+  text-align: center;
+
+  // The big metric — wrap in ** ** in the markdown
+  strong {
+    display: block;
+    font-size: 1.7em;
+    font-weight: 700;
+    color: $brand-teal;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  // Label text — everything else in the card div
+  font-size: 0.62em;
+  color: $brand-mid;
+  line-height: 1.3;
+  margin-top: 0.15em;
+}
+
+// ── Status pills ──────────────────────────────────────────────────────────────
+// Inline <span> classes for yes/partial/no state in tables or lists.
+// Usage (in a table cell): `[Yes]{.pill-yes}`  `[Partial]{.pill-partial}`  `[No]{.pill-no}`
+
+%pill-base {
+  display: inline-block;
+  font-size: 0.7em;
+  font-weight: 600;
+  padding: 0.1em 0.55em;
+  border-radius: 999px;
+  letter-spacing: 0.03em;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+.pill-yes {
+  @extend %pill-base;
+  background: lighten($brand-green, 50%);
+  color: darken($brand-green, 10%);
+  border: 1px solid lighten($brand-green, 20%);
+}
+
+.pill-partial {
+  @extend %pill-base;
+  background: lighten(#f5a623, 35%);
+  color: darken(#f5a623, 25%);
+  border: 1px solid lighten(#f5a623, 15%);
+}
+
+.pill-no {
+  @extend %pill-base;
+  background: lighten($brand-accent, 35%);
+  color: darken($brand-accent, 10%);
+  border: 1px solid lighten($brand-accent, 20%);
+}
+
+// ── Table styling ─────────────────────────────────────────────────────────────
+// Automatically applies to all tables in slides.
+
+.reveal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78em;
+
+  thead tr {
+    background: $brand-teal;
+    color: #ffffff;
+
+    th {
+      padding: 0.4em 0.75em;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      border: none;
+      text-align: left;
+    }
+  }
+
+  tbody {
+    tr:nth-child(odd)  { background: #ffffff; }
+    tr:nth-child(even) { background: rgba($brand-cyan, 0.10); }
+
+    td {
+      padding: 0.35em 0.75em;
+      border-bottom: 1px solid rgba($brand-teal, 0.12);
+      vertical-align: middle;
+    }
+  }
+}
+
+// Compact variant for dense matrices (~20+ rows). Wrap the table:
+// ::: {.table-compact}  |...|  :::
+// 0.64 inside a .text-xs wrapper ≈ the pre-bump 0.55×0.72 effective size;
+// the 20+ row app matrix overflows the slide at anything larger.
+.reveal .table-compact table {
+  font-size: 0.64em;
+
+  thead tr th { padding: 0.22em 0.5em; }
+  tbody td    { padding: 0.12em 0.5em; }
+
+  .pill-yes, .pill-partial, .pill-no {
+    font-size: 0.85em;
+    padding: 0.03em 0.4em;
+  }
+}
+
+// Annotated screenshot: relative wrapper sized to its image, with label
+// chips absolutely positioned in percent coordinates so they track the
+// image as it scales. Usage:
+//   ::: {.annotated-shot}
+//   <img src="...">
+//   [Label text]{.shot-label style="left:10%; top:20%;"}
+//   :::
+.reveal .annotated-shot {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+
+  img { display: block; }
+
+  .shot-label {
+    position: absolute;
+    background: rgba($brand-teal, 0.93);
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.3;
+    padding: 0.4em 0.7em;
+    border-radius: 6px;
+    max-width: 34%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+
+    strong { color: $brand-cyan; }
+  }
+}
+
+// ── Key finding box ───────────────────────────────────────────────────────────
+// Usage:  ::: {.key-finding}
+//         Your result statement here.
+//         :::
+
+.key-finding {
+  position: relative;
+  background: linear-gradient(135deg, lighten($brand-teal, 62%) 0%, lighten($brand-cyan, 20%) 100%);
+  border-left: 4px solid $brand-teal;
+  border-radius: 0 6px 6px 0;
+  padding: 0.55em 1em 0.55em 1em;
+  margin: 0.6em 0;
+
+  &::before {
+    content: 'KEY FINDING';
+    display: block;
+    font-size: 0.58em;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: $brand-teal;
+    margin-bottom: 0.3em;
+  }
+
+  p { margin: 0; font-size: 0.9em; color: $brand-dark; }
+  strong { color: $brand-teal; }
+}
+
+// ── Pull quote ────────────────────────────────────────────────────────────────
+// Usage:
+//   ::: {.pull-quote}
+//   "The most important result in the paper."
+//
+//   — Author et al. (2024)
+//   :::
+
+.pull-quote {
+  position: relative;
+  padding: 0.8em 1.5em 0.8em 2em;
+  text-align: left;
+
+  // Large decorative opening quote mark
+  &::before {
+    content: '\201C';
+    position: absolute;
+    top: -0.15em;
+    left: 0.1em;
+    font-size: 5em;
+    line-height: 1;
+    color: $brand-cyan;
+    opacity: 0.45;
+    font-family: Georgia, 'Times New Roman', serif;
+    pointer-events: none;
+  }
+
+  // Quote body — first paragraph
+  p:first-child {
+    font-size: 1.05em;
+    font-style: italic;
+    font-weight: 500;
+    color: $brand-dark;
+    line-height: 1.55;
+    margin-bottom: 0.5em;
+    border-left: 3px solid $brand-cyan;
+    padding-left: 0.9em;
+  }
+
+  // Attribution — last paragraph (write: — Author et al.)
+  p:last-child:not(:first-child) {
+    font-size: 0.68em;
+    font-style: normal;
+    font-weight: 600;
+    color: $brand-mid;
+    letter-spacing: 0.04em;
+    padding-left: 1em;
+    margin-top: 0;
+  }
+}
+
+// ── Numbered steps ────────────────────────────────────────────────────────────
+// Usage: wrap an ordered list in ::: {.steps}
+//
+//   ::: {.steps}
+//   1. First step — brief description
+//   2. Second step — brief description
+//   :::
+
+// The .reveal prefix is load-bearing: reveal ships `.reveal ol[type="1"]
+// {list-style-type: decimal}` (specificity 0,2,1), which outranks a bare
+// `.steps ol` and paints duplicate numbers next to the chips.
+.reveal .steps ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step-counter;
+
+  // Absolute-positioned number rather than a grid cell: a step whose text
+  // mixes <strong> and a trailing text node (e.g. "**Title** — description")
+  // would otherwise split into separate grid items and wrap one word per line.
+  li {
+    counter-increment: step-counter;
+    position: relative;
+    padding-left: 2.6em;
+    margin-bottom: 0.65em;
+
+    &::before {
+      content: counter(step-counter, decimal-leading-zero);
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 1.3em;
+      font-weight: 700;
+      color: $brand-teal;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+  }
+}
+
+// ── Image & layout utilities ──────────────────────────────────────────────────
+// .img-frame: the standard treatment for screenshots — centered, capped in both
+// dimensions, rounded. Replaces the inline style soup that screenshot-heavy
+// talks otherwise repeat on every <img>. Size variants stack: {.img-frame .tall}
+.reveal img.img-frame {
+  display: block;
+  margin: 0.3em auto;
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+}
+
+.reveal img.img-frame.tall  { max-height: 540px; }  // portrait / full-slide shots
+.reveal img.img-frame.short { max-height: 280px; }  // shot + bullets on one slide
+
+// Center a block of mixed content (image + caption, a lone figure)
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+// ── Context pin ───────────────────────────────────────────────────────────────
+// A small reference image pinned top-right across consecutive slides (e.g. the
+// molecule under discussion while the data below changes). Fixed geometry so
+// the anchor is pixel-identical from slide to slide — no hand-copied .absolute
+// coordinates. Pair with {auto-animate=true} so it holds still across slides.
+// position: fixed, not absolute — reveal's center:true gives every section a
+// different style.top (computed from its content height), so an absolute pin
+// drifts between slides. The .slides wrapper carries a CSS transform, which
+// makes it the containing block for fixed descendants: the pin anchors to the
+// 1280×720 canvas itself, identical on every slide regardless of centering.
+.reveal img.context-pin {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  max-width: 230px;
+  max-height: 200px;   // caps portrait images too — the pin is a thumbnail, not a figure
+  width: auto;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #e3e6e8;
+  background: $brand-bg;
+  padding: 4px;
+  z-index: 3;
+}
+
+// ── Exercise block ────────────────────────────────────────────────────────────
+// Hands-on workshop task. Green = "do this now" (same family as callout-tip).
+// Usage:
+//   ::: {.exercise}
+//   **Submit your first job** (~10 min)
+//
+//   1. steps…
+//   :::
+// Pair with a countdown shortcode on the same slide for timed exercises.
+.reveal .exercise {
+  position: relative;
+  margin-top: 1.3em;
+  padding: 0.8em 1em 0.5em;
+  border: 1px solid rgba($brand-green, 0.35);
+  border-left: 6px solid $brand-green;
+  border-radius: 8px;
+  background: rgba($brand-green, 0.05);
+
+  &::before {
+    content: 'EXERCISE';
+    position: absolute;
+    top: -0.9em;
+    left: 14px;
+    padding: 0.3em 0.9em;
+    border-radius: 999px;
+    background: $brand-green;
+    color: #fff;
+    font-size: 0.48em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+}
+
+// ── Timeline ──────────────────────────────────────────────────────────────────
+// Usage: wrap a bullet list in ::: {.timeline}
+//
+//   ::: {.timeline}
+//   - **2019** Cluster commissioned
+//   - **2021** GPU partition added
+//   :::
+//
+// Each bullet becomes a milestone on a horizontal brand-gradient line, evenly
+// spaced in document order. The bold lead (**year**) renders as the teal label
+// above the description. 4–6 milestones fit comfortably.
+// px, not em: the li text is scaled down (0.62em) so em-based offsets would
+// disagree between the ul's line and the li's dot. The canvas is fixed
+// 1280×720, so px geometry is stable.
+.reveal .timeline ul {
+  list-style: none;
+  display: flex;
+  padding: 44px 0 0;
+  margin: 0.5em 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 14px;              // line center = 16px, matched by the dots below
+    left: 2%;
+    right: 2%;
+    height: 4px;
+    border-radius: 2px;
+    background: linear-gradient(to right, $brand-teal, $brand-cyan);
+  }
+
+  li {
+    flex: 1;
+    position: relative;
+    // reveal's own li margin (from `.reveal .slides section li`, specificity
+    // 0,2,3) pushes the dots off the line; !important is the cheapest win here
+    margin: 0 !important;
+    padding: 0 0.5em;
+    text-align: center;
+    font-size: 0.62em;
+    line-height: 1.35;
+    color: $brand-mid;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -28px;           // li content starts at 44px; 44 − 28 = line center
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: $brand-bg;
+      border: 4px solid $brand-teal;
+    }
+
+    strong {
+      display: block;
+      color: $brand-teal;
+      font-size: 1.25em;
+      margin-bottom: 0.25em;
+    }
+  }
+}
+
+// ── Chat bubbles (extension: EmilHvitfeldt/chat-bubbles) ──────────────────────
+// Rebrand the extension's iMessage palette. The extension CSS
+// (_extensions/EmilHvitfeldt/chat-bubbles/chat-bubbles.css) reads these
+// custom properties; scoping them to .reveal beats its :root defaults
+// regardless of stylesheet load order.
+//   .bubble-right  = self (teal)      .bubble-left   = other (gray)
+//   .bubble-left-2 = 2nd other (green)  .bubble-left-3 = 3rd other (accent)
+.reveal {
+  --bubble-blue:   #{$brand-teal};
+  --bubble-gray:   #eef1f2;
+  --bubble-green:  #{$brand-green};
+  --bubble-purple: #{$brand-accent};
+}
+
+// Cap conversation height so the auto-scroll kicks in instead of the
+// bubbles pushing past the brand rule at the bottom of the slide.
+.reveal .chat {
+  max-height: 520px;
+}

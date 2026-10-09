@@ -1,0 +1,47 @@
+<div class="fp">
+  <header class="fp-head">
+    <div class="fp-label">Notebook</div>
+    <h1>Bike share, 2025</h1>
+    <p class="deck">Synthetic data from a fictional hilly city. The numbers in the margin match the marks on each plate.</p>
+  </header>
+  <hr class="fp-rule">
+  <p class="stub" id="fp-stub"></p>
+
+  <section class="plate">
+    <div class="folio" aria-hidden="true">01</div>
+    <div class="plate-main">
+      <div class="plate-title"><h2>Members commute; casual riders follow the weather</h2></div>
+      <p class="sub">Trips per day. Thin line is the day, thick line the 7-day mean. Hover for a day.</p>
+      <div class="fig" id="fp-line" style="position:relative"><div class="tip" id="tip1"></div></div>
+    </div>
+    <ol class="notes" id="notes1"></ol>
+  </section>
+
+  <section class="plate">
+    <div class="folio" aria-hidden="true">02</div>
+    <div class="plate-main">
+      <div class="plate-title"><h2>The weekday and the hour decide who is on the road</h2></div>
+      <p class="sub">Average trips per hour. Circle area is proportional to trips, on one scale for both rider types.</p>
+      <div class="fig" style="position:relative">
+        <div class="tabs" role="group" aria-label="Rider type">
+          <button type="button" data-rt="member" aria-pressed="true">Members</button>
+          <button type="button" data-rt="casual" aria-pressed="false">Casual riders</button>
+        </div>
+        <div id="fp-dots"></div><div class="tip" id="tip2"></div>
+      </div>
+    </div>
+    <ol class="notes" id="notes2"></ol>
+  </section>
+
+  <section class="plate">
+    <div class="folio" aria-hidden="true">03</div>
+    <div class="plate-main">
+      <div class="plate-title"><h2>Every neighborhood gained e-bikes; the city share moved the other way</h2></div>
+      <p class="sub">Share of trips on e-bikes, January to June (open circle) to July to December (arrow tip).</p>
+      <div class="fig" id="fp-dumb" style="position:relative"><div class="tip" id="tip3"></div></div>
+    </div>
+    <ol class="notes" id="notes3"></ol>
+  </section>
+
+  <footer class="provenance"><span>template-charlie</span><span>drawn from the files named in the stub above</span></footer>
+</div>

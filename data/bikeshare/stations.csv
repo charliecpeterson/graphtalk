@@ -1,0 +1,81 @@
+station_id,station_name,neighborhood,lat,lon,elevation_m,capacity,opened_date
+S01,Bay Ave & Church Plaza,Downtown,37.7568,-122.42772,15.8,31,2024-07-15
+S02,Union Plaza & Ridge Way,Downtown,37.76893,-122.418,15.3,27,2024-04-20
+S03,Cedar Plaza & Bay Way,Downtown,37.78587,-122.42463,8.7,23,2024-03-17
+S04,Cedar St & Harbor Blvd,Downtown,37.77104,-122.42979,21.1,19,2024-07-27
+S05,Church Blvd & Union Plaza,Downtown,37.76916,-122.42155,12.7,31,2024-07-17
+S06,Market St & Garden Plaza,Downtown,37.77296,-122.42086,13.5,31,2024-11-11
+S07,Grove Blvd & Bay Ave,Downtown,37.75792,-122.4126,15.1,19,2024-12-06
+S08,Lake Ave & Ridge Plaza,Downtown,37.76536,-122.41079,22.9,23,2024-11-26
+S09,Market Ave & Mission St,Downtown,37.76383,-122.4202,6.1,27,2024-10-14
+S10,Vista Plaza & Grove Ave,Downtown,37.77084,-122.42177,19.8,27,2024-08-31
+S11,Harbor St & Willow Ave,Downtown,37.7677,-122.41291,9.1,23,2024-12-02
+S12,Church Blvd & Pine Plaza,Downtown,37.76805,-122.40961,18.0,23,2024-11-12
+S13,Elm Way & Cedar Ave,Downtown,37.77481,-122.41549,3.3,27,2024-10-04
+S14,Elm Way & College Ave,Downtown,37.77131,-122.42287,18.2,15,2024-03-19
+S15,Mill Ave & Sunset St,Waterfront,37.76733,-122.41172,3.4,23,2024-08-17
+S16,Ridge Blvd & Summit Ave,Waterfront,37.78818,-122.40768,4.0,27,2024-10-29
+S17,Willow Ave & Ridge Ave,Waterfront,37.78866,-122.4021,4.4,27,2024-05-08
+S18,Harbor Blvd & Union Way,Waterfront,37.77212,-122.39153,5.9,19,2024-07-17
+S19,Summit Way & Orchard Ave,Waterfront,37.7825,-122.40246,7.6,19,2024-10-21
+S20,Orchard Blvd & Sunset Ave,Waterfront,37.7788,-122.40373,7.0,31,2024-09-01
+S21,Sunset St & Oak Plaza,Waterfront,37.78185,-122.40078,4.1,15,2024-11-09
+S22,Harbor Ave & Church Ave,Waterfront,37.77851,-122.41661,5.4,31,2024-11-14
+S23,Lake Ave & Elm Blvd,University,37.76591,-122.45119,69.0,15,2024-03-02
+S24,Harbor Blvd & Pier Plaza,University,37.77882,-122.44249,63.0,23,2024-05-31
+S25,Mill Blvd & College Blvd,University,37.77854,-122.45215,59.4,27,2024-06-29
+S26,Bay St & Elm Ave,University,37.76973,-122.44099,38.3,31,2024-05-22
+S27,Bay Ave & Union Plaza,University,37.77361,-122.44141,42.9,27,2024-07-10
+S28,Church Plaza & Grove Blvd,University,37.77098,-122.44266,50.6,15,2024-08-22
+S29,Summit Blvd & Union Blvd,University,37.77848,-122.44488,73.3,27,2024-09-13
+S30,Sunset Way & Quarry Ave,University,37.77882,-122.42415,76.5,19,2024-06-09
+S31,Market Plaza & Garden Blvd,University,37.77673,-122.44451,58.6,15,2024-03-21
+S32,Union Way & Vista St,University,37.79288,-122.43795,43.8,19,2024-11-26
+S33,Canal Way & Oak Way,Hillcrest,37.79781,-122.43716,75.5,31,2024-10-24
+S34,Market Plaza & Elm Plaza,Hillcrest,37.7935,-122.44679,92.7,19,2024-05-25
+S35,Pine St & Ridge Plaza,Hillcrest,37.79707,-122.42559,110.5,15,2024-03-16
+S36,Elm Plaza & Mill Way,Hillcrest,37.79611,-122.44871,163.9,15,2024-04-23
+S37,Pier Way & Market Way,Hillcrest,37.79651,-122.43878,123.7,27,2024-11-03
+S38,Cedar Way & Maple Plaza,Hillcrest,37.81023,-122.43948,153.1,19,2024-05-29
+S39,Oak Plaza & Vista Blvd,Hillcrest,37.79569,-122.43836,135.4,23,2024-11-15
+S40,Market Ave & Park Way,Hillcrest,37.78819,-122.4301,136.8,27,2024-07-23
+S41,Elm Plaza & Grove Plaza,Hillcrest,37.80842,-122.43814,136.6,27,2024-08-14
+S42,Maple Way & Canal Way,Hillcrest,37.7986,-122.43744,148.2,15,2024-08-01
+S43,Garden Ave & Ridge St,Old Town,37.75481,-122.41991,32.8,23,2024-05-24
+S44,Harbor St & Pine Blvd,Old Town,37.75599,-122.41806,39.8,23,2024-03-03
+S45,Cedar Blvd & Garden Way,Old Town,37.75498,-122.41457,26.4,31,2024-09-13
+S46,Lake Ave & Market Ave,Old Town,37.74484,-122.4278,26.6,23,2024-08-09
+S47,Ridge Way & Elm Blvd,Old Town,37.75472,-122.43466,37.8,19,2024-11-23
+S48,Lake Ave & Market Blvd,Old Town,37.75709,-122.41846,41.7,15,2024-10-31
+S49,Cedar Plaza & Pine Blvd,Old Town,37.74386,-122.42122,26.9,19,2024-07-30
+S50,Mill Ave & Ridge Way,Old Town,37.74754,-122.42153,34.7,31,2024-03-02
+S51,Lake St & Garden St,Old Town,37.7522,-122.41971,39.6,31,2024-08-03
+S52,Pine Plaza & Sunset St,Greenway,37.76381,-122.46568,30.2,31,2024-05-19
+S53,Market Blvd & Pine St,Greenway,37.74902,-122.4679,25.5,15,2024-04-24
+S54,Union Way & Bay Plaza,Greenway,37.74559,-122.45633,38.5,23,2024-11-05
+S55,College Plaza & Pier Plaza,Greenway,37.74859,-122.45173,41.7,27,2024-11-23
+S56,Quarry St & Harbor St,Greenway,37.76525,-122.46691,45.3,15,2024-09-16
+S57,Pine Ave & Church St,Greenway,37.73938,-122.44938,24.6,23,2024-09-04
+S58,Oak Way & Sunset St,Greenway,37.75024,-122.45325,29.0,23,2024-04-17
+S59,Market Plaza & Vista St,Greenway,37.75841,-122.46166,8.9,31,2024-08-26
+S60,Lake Ave & Pine Plaza,Eastgate,37.79134,-122.38535,11.8,15,2024-11-12
+S61,College Ave & Quarry Ave,Eastgate,37.77121,-122.37748,10.0,23,2024-07-20
+S62,Lake St & Summit Way,Eastgate,37.77357,-122.36846,3.0,19,2024-05-06
+S63,Orchard Blvd & Garden Way,Eastgate,37.76813,-122.37396,10.4,15,2024-07-27
+S64,Willow Plaza & Union Blvd,Eastgate,37.76262,-122.36199,12.3,23,2024-04-08
+S65,Quarry Way & Elm Way,Eastgate,37.77671,-122.36534,18.2,31,2024-07-29
+S66,Oak Blvd & Mission Plaza,Eastgate,37.76593,-122.36326,4.1,19,2024-05-08
+S67,Canal Ave & Maple St,Eastgate,37.76811,-122.37348,6.0,23,2024-07-06
+S68,Bay Ave & Sunset Blvd,Eastgate,37.76402,-122.37177,8.3,15,2024-06-28
+S69,Sunset Way & Market Ave,Eastgate,37.77496,-122.36594,7.1,27,2024-03-01
+S70,Vista St & Canal Ave,Eastgate,37.77198,-122.37212,11.8,27,2024-12-01
+S71,Quarry Ave & Elm Way,Harbor Flats,37.73801,-122.38089,7.8,15,2025-07-01
+S72,Grove Way & Cedar Way,Harbor Flats,37.74541,-122.38847,5.5,19,2025-07-01
+S73,Park Way & Willow St,Harbor Flats,37.74156,-122.39133,4.0,15,2025-07-01
+S74,Garden Plaza & Quarry Blvd,Harbor Flats,37.73678,-122.37775,7.6,27,2025-07-01
+S75,Union Plaza & Park St,Harbor Flats,37.7461,-122.36702,8.1,31,2025-07-01
+S76,Willow Way & Vista Ave,Harbor Flats,37.75163,-122.39729,7.1,31,2025-07-01
+S77,Oak Way & Elm Way,Harbor Flats,37.74576,-122.38538,7.0,31,2025-07-01
+S78,Orchard Ave & Bay Ave,Harbor Flats,37.7435,-122.3895,2.9,23,2025-07-01
+S79,Summit St & Union St,Harbor Flats,37.74153,-122.3831,5.4,23,2025-07-01
+S80,Ridge Blvd & Maple Ave,Harbor Flats,37.74465,-122.38056,6.3,27,2025-07-01

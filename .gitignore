@@ -1,0 +1,7 @@
+.venv/
+.quarto/
+.DS_Store
+__pycache__/
+docs/_generated/
+~$*
+author/

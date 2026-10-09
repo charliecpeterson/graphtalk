@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="936pt" height="316.8pt" viewBox="0 0 936 316.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-08T16:19:49.607563</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 316.8 
+L 936 316.8 
+L 936 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 34.46 232.376775 
+L 866.844312 232.376775 
+L 866.844312 122.439225 
+L 34.46 122.439225 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g clip-path="url(#pebf237721f)">
+    <image xlink:href="data:image/png;base64,
+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" id="image0c49e6f91b" transform="scale(1 -1) translate(0 -109.8)" x="34.56" y="-122.4" width="832.32" height="109.8"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="42.312682" y="116.809225" transform="rotate(-0 42.312682 116.809225)">Jan</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="105.13414" y="116.809225" transform="rotate(-0 105.13414 116.809225)">Feb</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="167.955597" y="116.809225" transform="rotate(-0 167.955597 116.809225)">Mar</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="246.482419" y="116.809225" transform="rotate(-0 246.482419 116.809225)">Apr</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="309.303877" y="116.809225" transform="rotate(-0 309.303877 116.809225)">May</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="372.125334" y="116.809225" transform="rotate(-0 372.125334 116.809225)">Jun</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="450.652156" y="116.809225" transform="rotate(-0 450.652156 116.809225)">Jul</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="513.473614" y="116.809225" transform="rotate(-0 513.473614 116.809225)">Aug</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="592.000436" y="116.809225" transform="rotate(-0 592.000436 116.809225)">Sep</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="654.821893" y="116.809225" transform="rotate(-0 654.821893 116.809225)">Oct</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="717.643351" y="116.809225" transform="rotate(-0 717.643351 116.809225)">Nov</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #898781" x="796.170173" y="116.809225" transform="rotate(-0 796.170173 116.809225)">Dec</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #898781" x="30.96" y="135.051907" transform="rotate(-0 30.96 135.051907)">Mon</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #898781" x="30.96" y="150.757271" transform="rotate(-0 30.96 150.757271)">Tue</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #898781" x="30.96" y="166.462636" transform="rotate(-0 30.96 166.462636)">Wed</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #898781" x="30.96" y="182.168" transform="rotate(-0 30.96 182.168)">Thu</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_17">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #898781" x="30.96" y="197.873364" transform="rotate(-0 30.96 197.873364)">Fri</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18"/>
+     <g id="text_18">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #898781" x="30.96" y="213.578729" transform="rotate(-0 30.96 213.578729)">Sat</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19"/>
+     <g id="text_19">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: end; fill: #898781" x="30.96" y="229.284093" transform="rotate(-0 30.96 229.284093)">Sun</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 207.219008 138.144589 
+L 222.924373 138.144589 
+L 222.924373 185.260682 
+L 207.219008 185.260682 
+L 207.219008 138.144589 
+z
+" clip-path="url(#pebf237721f)" style="fill: none; stroke: #0b0b0b; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 458.504838 200.966047 
+L 474.210203 200.966047 
+L 474.210203 216.671411 
+L 458.504838 216.671411 
+L 458.504838 200.966047 
+z
+" clip-path="url(#pebf237721f)" style="fill: none; stroke: #0b0b0b; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 189.073918 258.335643 
+Q 201.7372 222.741483 214.400483 187.147322 
+" style="fill: none; stroke: #898781; stroke-linecap: round"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; fill: #0b0b0b" transform="translate(129.725454 271.393968)">Transit strike (Mar 18-20):</text>
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; fill: #0b0b0b" transform="translate(146.522641 282.727468)">members up 1.7x</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 466.357521 258.214139 
+Q 466.357521 238.443056 466.357521 218.671973 
+" style="fill: none; stroke: #898781; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="466.357521" y="271.260968" transform="rotate(-0 466.357521 271.260968)">Festival (Jul 12): 712 trips</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_7">
+    <path d="M 875.381587 305.467125 
+L 888.1875 305.467125 
+L 888.1875 49.348875 
+L 875.381587 49.348875 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_8">
+     <g id="line2d_20"/>
+     <g id="text_22">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #898781" x="891.6875" y="278.621043" transform="rotate(-0 891.6875 278.621043)">300</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_21"/>
+     <g id="text_23">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #898781" x="891.6875" y="224.127798" transform="rotate(-0 891.6875 224.127798)">400</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_22"/>
+     <g id="text_24">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #898781" x="891.6875" y="169.634554" transform="rotate(-0 891.6875 169.634554)">500</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_23"/>
+     <g id="text_25">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #898781" x="891.6875" y="115.141309" transform="rotate(-0 891.6875 115.141309)">600</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_24"/>
+     <g id="text_26">
+      <text style="font-size: 10px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #898781" x="891.6875" y="60.648064" transform="rotate(-0 891.6875 60.648064)">700</text>
+     </g>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 10.5px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="922.361625" y="177.408" transform="rotate(-90 922.361625 177.408)">trips per day</text>
+    </g>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAACMAAALICAYAAAD1xUkxAAAFDUlEQVR4nO2awY0FyxHDaKHyz8xJOA0Dr//Vh52zKUCMYFFUtbpn37/+/Z//PiQEEUHEPY0kXJMJIu43TQ2anmidgogg4n54CCJOlF9UkwkibpoqNP1EnoKIIOJElnBN5rfJNGh601ShCY+nICKIuB16FZqeZ5nYZComE0TcXgcVmt7OmQZNv2lq0PSm6W9ONBhUmQkibq1doemJ1imICCJurf3BAtwR4Cc6aIKIIOJ2zlRoengIIoKI2zZ9sDroCPATHTRBRBBxO2cqNL1t09/sY1FJgPEQRAQRt3OmQtNPtE5BRBBx26YP1tpfLMAVkwkibudMhabfWvtv9rPtjgC/BbhB02+aGjS9aWrQ9BN5CiJONBhUkwkibpoqNP3wEEQEEbdfo32wa2dLgNEQRAQRt0dchaa3bWrQ9BN5CiJONBhUkwkibnVQoeltmxo0/fAQRNyetxWafjtnGjS9aWrQ9JumBk1vmv5mz9svFuCKyQQRtzqo0PRWB3+zALcE+GEhiAgibnVQoenhIYgIIm7b9MHuMy0BflgIIoKIE1lCNZkg4lYHHyzAXyzAFZMJIm51UKHpJ/IURAQRJ7KEazK/TaZB08NDEBFE3LapQtMT9UEQcQtwhabnyS+qyQQRt22q0PS2TQ2afiJPQcSJBoNqMkHErQ4qNL1tU4Om3zT9zZ63JQHGQxARRNzqoELTb3XQoOlN09/sefvFAlwxmSDiVgcVmhD1QRARRJxHErLJsAA3aHp4IhxEBBG3bWrQFEQEEbdfFlVoYq3doOmttRs04blboZpMEHGIPAURt9au0MQCXKHpoSGICCJuh94HO2e+WIArJhNEBBFBRBBx+yRSoemJbldBxC3AFZqeJ7+oJhNE3N7aHZqeZ52CiFtRVmjCk19UkwkibttUoYnVQYUmPKdeEHGi/KKaTBBxO2cqNL2dMw2aEJ16QUQQEUQEEbd/JVdoYnXQoOmtDho04SltZJPBM5ogIoi4nTMVmtg2VWh6aAgibl8hKjSxa2eDpjdNBZqCiCAiiLgdeh+stb9YgCsmE0Sc6HGAajJBxK0OPthkOgL8RJ8hgogg4kSWUE0miLh9eu3Q9DzrFETc6qBCEwtwhSZ2zjRoemgIIm51UKGJ1UGFJjwHTRARRNy2qULT2zb9ze4zHQFmAa7Q9NbaBZreNP3NzpmOAOM5ZlBNJoi4tXaFprc6aNCE6NQLIm7Xzg5NLMAFmp7HEqrJBBG3bfpgdfDFAlwxmSDi9jqo0MQuVxWaHhqCiFuAKzQ90fMgiAgibp9EOjSxbWrQ9NAQRNx+WVShibV2hSY8B00QEUTctumD1UFLgNEQRAQRtzro0PQ86xREBBG3p8oHC3BHgBHVdhARRJzIEqrJBBG3OvhgddARYEQHTRARRNxeBxWaHh6CiCDitk0frA6+WIArJhNE3F4HFZrYp9cCTUFEEHELcIcmPO+DICKIuP04uUIT26a/WR1UBDiICCKCiNvlqkLTWx38zQLcEWAW4ApNDw1BRBBxq4MKTezT69+sDr5YgCsmE0TcLlcVmt4uV3+zAHcEGFGCg4gg4lYHHZretqlA0xN9EwkiTjQYVJMJIm510KHpedYpiAgibnXwwQJcEeAgIogIIm510KGJtXaBprfL1d8swB0BZgEu0BREBBFBxG2bPtjz9osFuGIyQcTtddCh6e0RV6Dp4SGIuAW4QxOeCAcR+X//Af/LP6Fq1zoIpKLLAAAAAElFTkSuQmCC" id="imagef1dec995a5" transform="scale(1 -1) translate(0 -256.32)" x="875.52" y="-49.32" width="12.6" height="256.32"/>
+   <g id="LineCollection_1"/>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="37.44" y="27.663" transform="rotate(-0 37.44 27.663)">A festival and a transit strike stand out</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 11px; font-family: 'Helvetica Neue', 'Arial', 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="37.44" y="43.736" transform="rotate(-0 37.44 43.736)">Daily trips, 2025. Summer weekends run busiest; the festival is the busiest day of the year.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pebf237721f">
+   <rect x="34.46" y="122.439225" width="832.384312" height="109.937551"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>ebike share</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-09T02:31:32.317040</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 864 486 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f4efe4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 108 392.4 
+L 583.2 392.4 
+L 583.2 129.24 
+L 108 129.24 
+z
+" style="fill: #f4efe4"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mb990fc0562" d="M 0 0 
+L 0 4 
+" style="stroke: #55504a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb990fc0562" x="108" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="108" y="410.189795" transform="rotate(-0 108 410.189795)">10</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mb990fc0562" x="187.2" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="187.2" y="410.189795" transform="rotate(-0 187.2 410.189795)">20</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mb990fc0562" x="266.4" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="266.4" y="410.189795" transform="rotate(-0 266.4 410.189795)">30</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mb990fc0562" x="345.6" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="345.6" y="410.189795" transform="rotate(-0 345.6 410.189795)">40</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mb990fc0562" x="424.8" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="424.8" y="410.189795" transform="rotate(-0 424.8 410.189795)">50</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mb990fc0562" x="504" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="504" y="410.189795" transform="rotate(-0 504 410.189795)">60</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mb990fc0562" x="583.2" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="583.2" y="410.189795" transform="rotate(-0 583.2 410.189795)">70</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 11px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="345.6" y="427.492041" transform="rotate(-0 345.6 427.492041)">% of trips on e-bikes</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <path d="M 108 151.434217 
+L 583.2 151.434217 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="156.579114" transform="rotate(-0 104.5 156.579114)">Eastgate</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <path d="M 108 183.140241 
+L 583.2 183.140241 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_10">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="188.285138" transform="rotate(-0 104.5 188.285138)">Greenway</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_12">
+      <path d="M 108 214.846265 
+L 583.2 214.846265 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_11">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="219.991163" transform="rotate(-0 104.5 219.991163)">Waterfront</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14">
+      <path d="M 108 246.552289 
+L 583.2 246.552289 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_12">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="251.697187" transform="rotate(-0 104.5 251.697187)">Downtown</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_16">
+      <path d="M 108 278.258313 
+L 583.2 278.258313 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_13">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="283.403211" transform="rotate(-0 104.5 283.403211)">Old Town</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18">
+      <path d="M 108 309.964337 
+L 583.2 309.964337 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_14">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="315.109235" transform="rotate(-0 104.5 315.109235)">University</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_20">
+      <path d="M 108 341.670361 
+L 583.2 341.670361 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_21"/>
+     <g id="text_15">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="346.815259" transform="rotate(-0 104.5 346.815259)">Hillcrest</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_22">
+      <path d="M 108 373.376386 
+L 583.2 373.376386 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5; stroke-linecap: round"/>
+     </g>
+     <g id="line2d_23"/>
+     <g id="text_16">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="104.5" y="378.521283" transform="rotate(-0 104.5 378.521283)">All trips</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_24">
+    <path d="M 108 357.523373 
+L 583.2 357.523373 
+" clip-path="url(#p827028b1d3)" style="fill: none; stroke: #55504a; stroke-width: 0.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 108 392.4 
+L 583.2 392.4 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 169.68835 151.434217 
+Q 189.254975 151.434217 207.144549 151.434217 
+" style="fill: none; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 202.744549 149.234217 
+L 207.144549 151.434217 
+L 202.744549 153.634217 
+z
+" style="fill: #00929b; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="218.8216" y="153.90199" transform="rotate(-0 218.8216 153.90199)">23%</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 211.110743 183.140241 
+Q 233.052971 183.140241 253.318149 183.140241 
+" style="fill: none; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 248.918149 180.940241 
+L 253.318149 183.140241 
+L 248.918149 185.340241 
+z
+" style="fill: #00929b; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="264.9952" y="185.608014" transform="rotate(-0 264.9952 185.608014)">29%</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 253.482356 214.846265 
+Q 269.722378 214.846265 284.285349 214.846265 
+" style="fill: none; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 279.885349 212.646265 
+L 284.285349 214.846265 
+L 279.885349 217.046265 
+z
+" style="fill: #00929b; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="295.9624" y="217.314038" transform="rotate(-0 295.9624 217.314038)">32%</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 289.200783 246.552289 
+Q 311.777191 246.552289 332.676549 246.552289 
+" style="fill: none; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 328.276549 244.352289 
+L 332.676549 246.552289 
+L 328.276549 248.752289 
+z
+" style="fill: #00929b; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="344.3536" y="249.020063" transform="rotate(-0 344.3536 249.020063)">39%</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 294.505302 278.258313 
+Q 317.597451 278.258313 339.012549 278.258313 
+" style="fill: none; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 334.612549 276.058313 
+L 339.012549 278.258313 
+L 334.612549 280.458313 
+z
+" style="fill: #00929b; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="350.6896" y="280.726087" transform="rotate(-0 350.6896 280.726087)">39%</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 331.807328 309.964337 
+Q 355.969264 309.964337 378.454149 309.964337 
+" style="fill: none; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 374.054149 307.764337 
+L 378.454149 309.964337 
+L 374.054149 312.164337 
+z
+" style="fill: #00929b; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="390.1312" y="312.432111" transform="rotate(-0 390.1312 312.432111)">44%</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 443.955079 341.670361 
+Q 472.155939 341.670361 498.679749 341.670361 
+" style="fill: none; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+    <path d="M 494.279749 339.470361 
+L 498.679749 341.670361 
+L 494.279749 343.870361 
+z
+" style="fill: #00929b; stroke: #00929b; stroke-width: 1.5; stroke-linecap: round"/>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="510.3568" y="344.138135" transform="rotate(-0 510.3568 344.138135)">60%</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 276.46482 373.376386 
+Q 271.15521 373.376386 268.081668 373.376386 
+" style="fill: none; stroke: #d8435a; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 272.481668 375.576386 
+L 268.081668 373.376386 
+L 272.481668 371.176386 
+z
+" style="fill: #d8435a; stroke: #d8435a; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9.5px; font-family: 'Menlo'; text-anchor: end; fill: #55504a" x="255.8456" y="375.844159" transform="rotate(-0 255.8456 375.844159)">30%</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="ma1103956ab" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #00929b; stroke-width: 1.3"/>
+    </defs>
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#ma1103956ab" x="166.6872" y="151.434217" style="fill: #f4efe4; stroke: #00929b; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#ma1103956ab" x="208.1088" y="183.140241" style="fill: #f4efe4; stroke: #00929b; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#ma1103956ab" x="250.4808" y="214.846265" style="fill: #f4efe4; stroke: #00929b; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="PathCollection_4">
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#ma1103956ab" x="286.2" y="246.552289" style="fill: #f4efe4; stroke: #00929b; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="PathCollection_5">
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#ma1103956ab" x="291.5064" y="278.258313" style="fill: #f4efe4; stroke: #00929b; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="PathCollection_6">
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#ma1103956ab" x="328.8096" y="309.964337" style="fill: #f4efe4; stroke: #00929b; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#ma1103956ab" x="440.9568" y="341.670361" style="fill: #f4efe4; stroke: #00929b; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="PathCollection_8">
+    <defs>
+     <path id="m2d1ec5c17a" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+" style="stroke: #d8435a; stroke-width: 1.3"/>
+    </defs>
+    <g clip-path="url(#p827028b1d3)">
+     <use xlink:href="#m2d1ec5c17a" x="279.468" y="373.376386" style="fill: #f4efe4; stroke: #d8435a; stroke-width: 1.3"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <g id="patch_12">
+     <path d="M 250.8216 158.234217 
+C 252.624981 158.234217 254.354743 157.517726 255.629926 156.242543 
+C 256.905109 154.96736 257.6216 153.237598 257.6216 151.434217 
+C 257.6216 149.630836 256.905109 147.901074 255.629926 146.625891 
+C 254.354743 145.350708 252.624981 144.634217 250.8216 144.634217 
+C 249.018219 144.634217 247.288457 145.350708 246.013274 146.625891 
+C 244.738091 147.901074 244.0216 149.630836 244.0216 151.434217 
+C 244.0216 153.237598 244.738091 154.96736 246.013274 156.242543 
+C 247.288457 157.517726 249.018219 158.234217 250.8216 158.234217 
+z
+" style="fill: #1f1d1a"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="250.8216" y="153.642225" transform="rotate(-0 250.8216 153.642225)">2</text>
+   </g>
+   <g id="text_26">
+    <g id="patch_13">
+     <path d="M 223.8456 380.176386 
+C 225.648981 380.176386 227.378743 379.459895 228.653926 378.184712 
+C 229.929109 376.909529 230.6456 375.179767 230.6456 373.376386 
+C 230.6456 371.573004 229.929109 369.843242 228.653926 368.568059 
+C 227.378743 367.292876 225.648981 366.576386 223.8456 366.576386 
+C 222.042219 366.576386 220.312457 367.292876 219.037274 368.568059 
+C 217.762091 369.843242 217.0456 371.573004 217.0456 373.376386 
+C 217.0456 375.179767 217.762091 376.909529 219.037274 378.184712 
+C 220.312457 379.459895 222.042219 380.176386 223.8456 380.176386 
+z
+" style="fill: #1f1d1a"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="223.8456" y="375.584393" transform="rotate(-0 223.8456 375.584393)">1</text>
+   </g>
+  </g>
+  <g id="patch_14">
+   <path d="M 43.2 30.24 
+L 64.8 30.24 
+L 64.8 24.84 
+L 43.2 24.84 
+z
+" style="fill: #1c6d72"/>
+  </g>
+  <g id="line2d_25">
+   <path d="M 14.4 471.6 
+L 25.92 471.6 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_26">
+   <path d="M 14.4 471.6 
+L 14.4 460.08 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_27">
+   <path d="M 849.6 471.6 
+L 838.08 471.6 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_28">
+   <path d="M 849.6 471.6 
+L 849.6 460.08 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_29">
+   <path d="M 14.4 14.4 
+L 25.92 14.4 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_30">
+   <path d="M 14.4 14.4 
+L 14.4 25.92 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_31">
+   <path d="M 849.6 14.4 
+L 838.08 14.4 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_32">
+   <path d="M 849.6 14.4 
+L 849.6 25.92 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_33">
+   <path d="M 43.2 101.88 
+L 820.8 101.88 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 1.6"/>
+  </g>
+  <g id="line2d_34">
+   <path d="M 43.2 105.12 
+L 820.8 105.12 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 0.5"/>
+  </g>
+  <g id="line2d_35">
+   <path d="M 43.2 438.48 
+L 820.8 438.48 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5"/>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="73.44" y="29.568008" transform="rotate(-0 73.44 29.568008)">PLATE 04</text>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="43.2" y="67.179551" transform="rotate(-0 43.2 67.179551)">Every neighborhood gained e-bikes, yet the city share fell.</text>
+  </g>
+  <g id="text_29">
+   <text style="font-style: italic; font-size: 12px; font-family: 'Charter'; text-anchor: start; fill: #55504a" x="43.2" y="88.079766" transform="rotate(-0 43.2 88.079766)">Share of trips on e-bikes by start neighborhood: January to June (open circle) to July to December (arrow tip).</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 7.2px; font-family: 'Menlo'; text-anchor: start; fill: #8f887b" x="43.2" y="457.646344" transform="rotate(-0 43.2 457.646344)">data/bikeshare/trips.csv  n=149,495  sha 3ec7aa1   |   plotted: 7 neighborhoods and the city total; Harbor Flats has no first-half trips</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 7.2px; font-family: 'Menlo'; text-anchor: end; fill: #8f887b" x="820.8" y="457.646344" transform="rotate(-0 820.8 457.646344)">drawn 2026-10-09  |  template-charlie</text>
+  </g>
+  <g id="text_32">
+   <g id="patch_15">
+    <path d="M 624.96 137.48 
+C 626.763381 137.48 628.493143 136.763509 629.768326 135.488326 
+C 631.043509 134.213143 631.76 132.483381 631.76 130.68 
+C 631.76 128.876619 631.043509 127.146857 629.768326 125.871674 
+C 628.493143 124.596491 626.763381 123.88 624.96 123.88 
+C 623.156619 123.88 621.426857 124.596491 620.151674 125.871674 
+C 618.876491 127.146857 618.16 128.876619 618.16 130.68 
+C 618.16 132.483381 618.876491 134.213143 620.151674 135.488326 
+C 621.426857 136.763509 623.156619 137.48 624.96 137.48 
+z
+" style="fill: #1f1d1a"/>
+   </g>
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="624.96" y="132.888008" transform="rotate(-0 624.96 132.888008)">1</text>
+  </g>
+  <g id="text_33">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="134.563667" transform="rotate(-0 642.96 134.563667)">City-wide the share went from</text>
+  </g>
+  <g id="text_34">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="149.323667" transform="rotate(-0 642.96 149.323667)">31.6% to 29.9%, down 1.7 points,</text>
+  </g>
+  <g id="text_35">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="164.083667" transform="rotate(-0 642.96 164.083667)">while every row above it rose.</text>
+  </g>
+  <g id="text_36">
+   <g id="patch_16">
+    <path d="M 624.96 206.24 
+C 626.763381 206.24 628.493143 205.523509 629.768326 204.248326 
+C 631.043509 202.973143 631.76 201.243381 631.76 199.44 
+C 631.76 197.636619 631.043509 195.906857 629.768326 194.631674 
+C 628.493143 193.356491 626.763381 192.64 624.96 192.64 
+C 623.156619 192.64 621.426857 193.356491 620.151674 194.631674 
+C 618.876491 195.906857 618.16 197.636619 618.16 199.44 
+C 618.16 201.243381 618.876491 202.973143 620.151674 204.248326 
+C 621.426857 205.523509 623.156619 206.24 624.96 206.24 
+z
+" style="fill: #1f1d1a"/>
+   </g>
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="624.96" y="201.648008" transform="rotate(-0 624.96 201.648008)">2</text>
+  </g>
+  <g id="text_37">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="203.323667" transform="rotate(-0 642.96 203.323667)">Each neighborhood gained 4.5 to</text>
+  </g>
+  <g id="text_38">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="218.083667" transform="rotate(-0 642.96 218.083667)">7.5 points. The lowest second-half</text>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="232.843667" transform="rotate(-0 642.96 232.843667)">share is Eastgate's 22.7%.</text>
+  </g>
+  <g id="text_40">
+   <g id="patch_17">
+    <path d="M 624.96 275 
+C 626.763381 275 628.493143 274.283509 629.768326 273.008326 
+C 631.043509 271.733143 631.76 270.003381 631.76 268.2 
+C 631.76 266.396619 631.043509 264.666857 629.768326 263.391674 
+C 628.493143 262.116491 626.763381 261.4 624.96 261.4 
+C 623.156619 261.4 621.426857 262.116491 620.151674 263.391674 
+C 618.876491 264.666857 618.16 266.396619 618.16 268.2 
+C 618.16 270.003381 618.876491 271.733143 620.151674 273.008326 
+C 621.426857 274.283509 623.156619 275 624.96 275 
+z
+" style="fill: #1f1d1a"/>
+   </g>
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="624.96" y="270.408008" transform="rotate(-0 624.96 270.408008)">3</text>
+  </g>
+  <g id="text_41">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="272.083667" transform="rotate(-0 642.96 272.083667)">Harbor Flats opened July 1: 31% of</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="286.843667" transform="rotate(-0 642.96 286.843667)">second-half trips, only 13% on</text>
+  </g>
+  <g id="text_43">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="301.603667" transform="rotate(-0 642.96 301.603667)">e-bikes. The mix changed, not the</text>
+  </g>
+  <g id="text_44">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="316.363667" transform="rotate(-0 642.96 316.363667)">riders.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p827028b1d3">
+   <rect x="108" y="129.24" width="475.2" height="263.16"/>
+  </clipPath>
+ </defs>
+</svg>

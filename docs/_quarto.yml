@@ -1,0 +1,48 @@
+project:
+  type: default
+  # Only the deck is rendered. RUN_OF_SHOW.md and the data READMEs are not slides.
+  render:
+    - index.qmd
+  # Wraps each skills/*/SKILL.md in a fenced block for the slides to include.
+  pre-render: python3 ../scripts/gen_snippets.py
+
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    filters:
+      - roughnotation
+    revealjs-plugins:
+      - highlightword
+      - chat-bubbles
+    transition: slide
+    code-overflow: wrap
+    code-copy: true
+    self-contained: true
+    slide-number: c/t
+    show-slide-number: all
+    date-format: "long"
+    chalkboard: false
+    controls: false
+    footer: "graphtalk.charlespeterson.dev"
+    width: 1280
+    height: 720
+    center: true
+
+execute:
+  echo: true
+  warning: false
+  cache: false
+
+# Brand styling for {{< countdown >}} timers (gadenbuie/countdown extension)
+countdown:
+  font_size: "2.2rem"
+  color_border: "#1C6D72"
+  color_text: "#1C6D72"
+  color_background: "#ffffff"
+  color_running_border: "#21A364"
+  color_running_text: "#21A364"
+  color_warning_border: "#E0A32E"
+  color_warning_text: "#E0A32E"
+  color_finished_border: "#E35B6A"
+  color_finished_text: "#E35B6A"
+  color_finished_background: "#fdeef0"

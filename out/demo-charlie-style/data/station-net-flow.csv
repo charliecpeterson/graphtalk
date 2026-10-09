@@ -1,0 +1,81 @@
+station_id,station_name,neighborhood,lat,lon,capacity,departures,arrivals,net
+S31,Market Plaza & Garden Blvd,University,37.77673,-122.44451,15,4415,2976,-1439
+S55,College Plaza & Pier Plaza,Greenway,37.74859,-122.45173,27,3682,2449,-1233
+S38,Cedar Way & Maple Plaza,Hillcrest,37.81023,-122.43948,19,1090,182,-908
+S29,Summit Blvd & Union Blvd,University,37.77848,-122.44488,27,2022,1199,-823
+S42,Maple Way & Canal Way,Hillcrest,37.7986,-122.43744,15,1106,288,-818
+S39,Oak Plaza & Vista Blvd,Hillcrest,37.79569,-122.43836,23,1143,343,-800
+S23,Lake Ave & Elm Blvd,University,37.76591,-122.45119,15,1524,760,-764
+S25,Mill Blvd & College Blvd,University,37.77854,-122.45215,27,1981,1243,-738
+S24,Harbor Blvd & Pier Plaza,University,37.77882,-122.44249,23,2193,1523,-670
+S41,Elm Plaza & Grove Plaza,Hillcrest,37.80842,-122.43814,27,830,178,-652
+S35,Pine St & Ridge Plaza,Hillcrest,37.79707,-122.42559,15,1030,378,-652
+S53,Market Blvd & Pine St,Greenway,37.74902,-122.4679,15,1779,1187,-592
+S28,Church Plaza & Grove Blvd,University,37.77098,-122.44266,15,2505,1940,-565
+S32,Union Way & Vista St,University,37.79288,-122.43795,19,1832,1310,-522
+S52,Pine Plaza & Sunset St,Greenway,37.76381,-122.46568,31,1714,1193,-521
+S57,Pine Ave & Church St,Greenway,37.73938,-122.44938,23,1854,1351,-503
+S37,Pier Way & Market Way,Hillcrest,37.79651,-122.43878,27,784,284,-500
+S75,Union Plaza & Park St,Harbor Flats,37.7461,-122.36702,31,2407,1944,-463
+S56,Quarry St & Harbor St,Greenway,37.76525,-122.46691,15,1258,805,-453
+S65,Quarry Way & Elm Way,Eastgate,37.77671,-122.36534,31,1198,756,-442
+S36,Elm Plaza & Mill Way,Hillcrest,37.79611,-122.44871,15,519,112,-407
+S64,Willow Plaza & Union Blvd,Eastgate,37.76262,-122.36199,23,1360,965,-395
+S40,Market Ave & Park Way,Hillcrest,37.78819,-122.4301,27,600,246,-354
+S30,Sunset Way & Quarry Ave,University,37.77882,-122.42415,19,645,313,-332
+S54,Union Way & Bay Plaza,Greenway,37.74559,-122.45633,23,1015,700,-315
+S34,Market Plaza & Elm Plaza,Hillcrest,37.7935,-122.44679,19,712,402,-310
+S33,Canal Way & Oak Way,Hillcrest,37.79781,-122.43716,31,679,392,-287
+S44,Harbor St & Pine Blvd,Old Town,37.75599,-122.41806,23,3385,3130,-255
+S50,Mill Ave & Ridge Way,Old Town,37.74754,-122.42153,31,1634,1440,-194
+S49,Cedar Plaza & Pine Blvd,Old Town,37.74386,-122.42122,19,1644,1462,-182
+S51,Lake St & Garden St,Old Town,37.7522,-122.41971,31,1637,1463,-174
+S60,Lake Ave & Pine Plaza,Eastgate,37.79134,-122.38535,15,783,651,-132
+S58,Oak Way & Sunset St,Greenway,37.75024,-122.45325,23,992,860,-132
+S66,Oak Blvd & Mission Plaza,Eastgate,37.76593,-122.36326,19,1159,1052,-107
+S47,Ridge Way & Elm Blvd,Old Town,37.75472,-122.43466,19,1337,1247,-90
+S74,Garden Plaza & Quarry Blvd,Harbor Flats,37.73678,-122.37775,27,1519,1460,-59
+S27,Bay Ave & Union Plaza,University,37.77361,-122.44141,27,1380,1328,-52
+S69,Sunset Way & Market Ave,Eastgate,37.77496,-122.36594,27,711,674,-37
+S46,Lake Ave & Market Ave,Old Town,37.74484,-122.4278,23,1090,1054,-36
+S68,Bay Ave & Sunset Blvd,Eastgate,37.76402,-122.37177,15,1522,1490,-32
+S17,Willow Ave & Ridge Ave,Waterfront,37.78866,-122.4021,27,3050,3049,-1
+S26,Bay St & Elm Ave,University,37.76973,-122.44099,31,1145,1164,19
+S70,Vista St & Canal Ave,Eastgate,37.77198,-122.37212,27,1211,1239,28
+S08,Lake Ave & Ridge Plaza,Downtown,37.76536,-122.41079,23,2090,2126,36
+S61,College Ave & Quarry Ave,Eastgate,37.77121,-122.37748,23,960,1000,40
+S48,Lake Ave & Market Blvd,Old Town,37.75709,-122.41846,15,997,1048,51
+S62,Lake St & Summit Way,Eastgate,37.77357,-122.36846,19,1171,1235,64
+S04,Cedar St & Harbor Blvd,Downtown,37.77104,-122.42979,19,1145,1221,76
+S59,Market Plaza & Vista St,Greenway,37.75841,-122.46166,31,2066,2156,90
+S63,Orchard Blvd & Garden Way,Eastgate,37.76813,-122.37396,15,774,867,93
+S67,Canal Ave & Maple St,Eastgate,37.76811,-122.37348,23,1047,1161,114
+S16,Ridge Blvd & Summit Ave,Waterfront,37.78818,-122.40768,27,2553,2676,123
+S18,Harbor Blvd & Union Way,Waterfront,37.77212,-122.39153,19,1959,2099,140
+S01,Bay Ave & Church Plaza,Downtown,37.7568,-122.42772,31,4139,4291,152
+S71,Quarry Ave & Elm Way,Harbor Flats,37.73801,-122.38089,15,1227,1393,166
+S12,Church Blvd & Pine Plaza,Downtown,37.76805,-122.40961,23,1804,1986,182
+S43,Garden Ave & Ridge St,Old Town,37.75481,-122.41991,23,1415,1604,189
+S10,Vista Plaza & Grove Ave,Downtown,37.77084,-122.42177,27,1303,1500,197
+S07,Grove Blvd & Bay Ave,Downtown,37.75792,-122.4126,19,1928,2165,237
+S03,Cedar Plaza & Bay Way,Downtown,37.78587,-122.42463,23,2902,3174,272
+S19,Summit Way & Orchard Ave,Waterfront,37.7825,-122.40246,19,1231,1520,289
+S02,Union Plaza & Ridge Way,Downtown,37.76893,-122.418,27,1245,1586,341
+S45,Cedar Blvd & Garden Way,Old Town,37.75498,-122.41457,31,2369,2813,444
+S22,Harbor Ave & Church Ave,Waterfront,37.77851,-122.41661,31,1300,1746,446
+S06,Market St & Garden Plaza,Downtown,37.77296,-122.42086,31,1640,2099,459
+S15,Mill Ave & Sunset St,Waterfront,37.76733,-122.41172,23,1097,1630,533
+S80,Ridge Blvd & Maple Ave,Harbor Flats,37.74465,-122.38056,27,3074,3646,572
+S21,Sunset St & Oak Plaza,Waterfront,37.78185,-122.40078,15,2493,3092,599
+S79,Summit St & Union St,Harbor Flats,37.74153,-122.3831,23,2029,2665,636
+S14,Elm Way & College Ave,Downtown,37.77131,-122.42287,15,4171,4813,642
+S09,Market Ave & Mission St,Downtown,37.76383,-122.4202,27,2402,3247,845
+S77,Oak Way & Elm Way,Harbor Flats,37.74576,-122.38538,31,2602,3488,886
+S78,Orchard Ave & Bay Ave,Harbor Flats,37.7435,-122.3895,23,1887,2790,903
+S13,Elm Way & Cedar Ave,Downtown,37.77481,-122.41549,27,2280,3187,907
+S20,Orchard Blvd & Sunset Ave,Waterfront,37.7788,-122.40373,31,3511,4479,968
+S73,Park Way & Willow St,Harbor Flats,37.74156,-122.39133,15,3125,4145,1020
+S11,Harbor St & Willow Ave,Downtown,37.7677,-122.41291,23,3697,4872,1175
+S76,Willow Way & Vista Ave,Harbor Flats,37.75163,-122.39729,31,2896,4129,1233
+S72,Grove Way & Cedar Way,Harbor Flats,37.74541,-122.38847,19,3926,5239,1313
+S05,Church Blvd & Union Plaza,Downtown,37.76916,-122.42155,31,6952,8413,1461

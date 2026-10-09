@@ -1,0 +1,13 @@
+rain,temp_band,mean_trips,days
+Dry day,6,319.4,26
+Dry day,10,377.4,78
+Dry day,14,428.9,88
+Dry day,18,455.5,70
+Dry day,22,466.8,42
+Dry day,26,462.2,5
+Dry day,30,400.8,4
+Rainy day,6,319.6,5
+Rainy day,10,332.1,20
+Rainy day,14,389.4,14
+Rainy day,18,383,9
+Rainy day,22,396.3,3

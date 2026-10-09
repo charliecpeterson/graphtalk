@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="486pt" viewBox="0 0 864 486" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>weather and riding</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-09T02:31:31.941406</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 486 
+L 864 486 
+L 864 0 
+L 0 0 
+z
+" style="fill: #f4efe4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 72 392.4 
+L 583.2 392.4 
+L 583.2 146.16 
+L 72 146.16 
+z
+" style="fill: #f4efe4"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mdfad48f0d3" d="M 0 0 
+L 0 4 
+" style="stroke: #55504a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mdfad48f0d3" x="86.817391" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="86.817391" y="410.189795" transform="rotate(-0 86.817391 410.189795)">&lt;7</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mdfad48f0d3" x="160.904348" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="160.904348" y="410.189795" transform="rotate(-0 160.904348 410.189795)">7-10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mdfad48f0d3" x="234.991304" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="234.991304" y="410.189795" transform="rotate(-0 234.991304 410.189795)">10-13</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mdfad48f0d3" x="309.078261" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="309.078261" y="410.189795" transform="rotate(-0 309.078261 410.189795)">13-16</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mdfad48f0d3" x="383.165217" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="383.165217" y="410.189795" transform="rotate(-0 383.165217 410.189795)">16-19</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#mdfad48f0d3" x="457.252174" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="457.252174" y="410.189795" transform="rotate(-0 457.252174 410.189795)">19-22</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mdfad48f0d3" x="531.33913" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="531.33913" y="410.189795" transform="rotate(-0 531.33913 410.189795)">&gt;22</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 11px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="327.6" y="427.492041" transform="rotate(-0 327.6 427.492041)">daily mean temperature, degrees C (n = dry days in bin)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="ma34ffa531e" d="M 0 0 
+L -4 0 
+" style="stroke: #55504a; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#ma34ffa531e" x="72" y="392.4" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="64.5" y="397.544897" transform="rotate(-0 64.5 397.544897)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#ma34ffa531e" x="72" y="345.046154" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="64.5" y="350.191051" transform="rotate(-0 64.5 350.191051)">100</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#ma34ffa531e" x="72" y="297.692308" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="64.5" y="302.837205" transform="rotate(-0 64.5 302.837205)">200</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#ma34ffa531e" x="72" y="250.338462" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="64.5" y="255.483359" transform="rotate(-0 64.5 255.483359)">300</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#ma34ffa531e" x="72" y="202.984615" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="64.5" y="208.129513" transform="rotate(-0 64.5 208.129513)">400</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#ma34ffa531e" x="72" y="155.630769" style="fill: #55504a; stroke: #55504a; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: end; fill: #55504a" x="64.5" y="160.775667" transform="rotate(-0 64.5 160.775667)">500</text>
+     </g>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 11px; font-family: 'Charter'; text-anchor: middle; fill: #55504a" x="40.340469" y="269.28" transform="rotate(-90 40.340469 269.28)">trips per day</text>
+    </g>
+   </g>
+   <g id="line2d_14">
+    <path d="M 86.817391 250.101692 
+L 160.904348 225.667108 
+L 234.991304 203.268738 
+L 309.078261 184.753385 
+L 383.165217 176.277046 
+L 457.252174 174.051415 
+L 531.33913 179.212985 
+" clip-path="url(#p6e6653d7ae)" style="fill: none; stroke: #00929b; stroke-width: 2.4; stroke-linecap: round"/>
+    <defs>
+     <path id="m2060dc8cc9" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #00929b"/>
+    </defs>
+    <g clip-path="url(#p6e6653d7ae)">
+     <use xlink:href="#m2060dc8cc9" x="86.817391" y="250.101692" style="fill: #00929b; stroke: #00929b"/>
+     <use xlink:href="#m2060dc8cc9" x="160.904348" y="225.667108" style="fill: #00929b; stroke: #00929b"/>
+     <use xlink:href="#m2060dc8cc9" x="234.991304" y="203.268738" style="fill: #00929b; stroke: #00929b"/>
+     <use xlink:href="#m2060dc8cc9" x="309.078261" y="184.753385" style="fill: #00929b; stroke: #00929b"/>
+     <use xlink:href="#m2060dc8cc9" x="383.165217" y="176.277046" style="fill: #00929b; stroke: #00929b"/>
+     <use xlink:href="#m2060dc8cc9" x="457.252174" y="174.051415" style="fill: #00929b; stroke: #00929b"/>
+     <use xlink:href="#m2060dc8cc9" x="531.33913" y="179.212985" style="fill: #00929b; stroke: #00929b"/>
+    </g>
+   </g>
+   <g id="line2d_15">
+    <path d="M 160.904348 239.1156 
+L 234.991304 224.767385 
+L 309.078261 192.9456 
+L 383.165217 211.934492 
+" clip-path="url(#p6e6653d7ae)" style="fill: none; stroke: #d8435a; stroke-width: 2.4; stroke-linecap: round"/>
+    <defs>
+     <path id="mac0592007b" d="M 0 2.5 
+C 0.663008 2.5 1.29895 2.236584 1.767767 1.767767 
+C 2.236584 1.29895 2.5 0.663008 2.5 0 
+C 2.5 -0.663008 2.236584 -1.29895 1.767767 -1.767767 
+C 1.29895 -2.236584 0.663008 -2.5 0 -2.5 
+C -0.663008 -2.5 -1.29895 -2.236584 -1.767767 -1.767767 
+C -2.236584 -1.29895 -2.5 -0.663008 -2.5 0 
+C -2.5 0.663008 -2.236584 1.29895 -1.767767 1.767767 
+C -1.29895 2.236584 -0.663008 2.5 0 2.5 
+z
+" style="stroke: #d8435a"/>
+    </defs>
+    <g clip-path="url(#p6e6653d7ae)">
+     <use xlink:href="#mac0592007b" x="160.904348" y="239.1156" style="fill: #f4efe4; stroke: #d8435a"/>
+     <use xlink:href="#mac0592007b" x="234.991304" y="224.767385" style="fill: #f4efe4; stroke: #d8435a"/>
+     <use xlink:href="#mac0592007b" x="309.078261" y="192.9456" style="fill: #f4efe4; stroke: #d8435a"/>
+     <use xlink:href="#mac0592007b" x="383.165217" y="211.934492" style="fill: #f4efe4; stroke: #d8435a"/>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 72 392.4 
+L 72 155.630769 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 86.817391 392.4 
+L 531.33913 392.4 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_16">
+    <text style="font-style: italic; font-size: 11px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="541.33913" y="173.281588" transform="rotate(-0 541.33913 173.281588)">Dry days</text>
+   </g>
+   <g id="text_17">
+    <text style="font-style: italic; font-size: 11px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="393.165217" y="222.003096" transform="rotate(-0 393.165217 222.003096)">Rainy days</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8px; font-family: 'Menlo'; text-anchor: middle; fill: #8f887b" x="86.817391" y="386.4" transform="rotate(-0 86.817391 386.4)">n=15</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8px; font-family: 'Menlo'; text-anchor: middle; fill: #8f887b" x="160.904348" y="386.4" transform="rotate(-0 160.904348 386.4)">n=46</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'Menlo'; text-anchor: middle; fill: #8f887b" x="234.991304" y="386.4" transform="rotate(-0 234.991304 386.4)">n=76</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8px; font-family: 'Menlo'; text-anchor: middle; fill: #8f887b" x="309.078261" y="386.4" transform="rotate(-0 309.078261 386.4)">n=59</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8px; font-family: 'Menlo'; text-anchor: middle; fill: #8f887b" x="383.165217" y="386.4" transform="rotate(-0 383.165217 386.4)">n=56</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8px; font-family: 'Menlo'; text-anchor: middle; fill: #8f887b" x="457.252174" y="386.4" transform="rotate(-0 457.252174 386.4)">n=46</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8px; font-family: 'Menlo'; text-anchor: middle; fill: #8f887b" x="531.33913" y="386.4" transform="rotate(-0 531.33913 386.4)">n=19</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="m21e947667d" d="M 0 2.915476 
+C 0.773193 2.915476 1.514823 2.608283 2.061553 2.061553 
+C 2.608283 1.514823 2.915476 0.773193 2.915476 0 
+C 2.915476 -0.773193 2.608283 -1.514823 2.061553 -2.061553 
+C 1.514823 -2.608283 0.773193 -2.915476 0 -2.915476 
+C -0.773193 -2.915476 -1.514823 -2.608283 -2.061553 -2.061553 
+C -2.608283 -1.514823 -2.915476 -0.773193 -2.915476 0 
+C -2.915476 0.773193 -2.608283 1.514823 -2.061553 2.061553 
+C -1.514823 2.608283 -0.773193 2.915476 0 2.915476 
+z
+" style="stroke: #f4efe4; stroke-width: 1.4"/>
+    </defs>
+    <g>
+     <use xlink:href="#m21e947667d" x="531.33913" y="179.212985" style="fill: #00929b; stroke: #f4efe4; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m449bc3e9cc" d="M 0 2.915476 
+C 0.773193 2.915476 1.514823 2.608283 2.061553 2.061553 
+C 2.608283 1.514823 2.915476 0.773193 2.915476 0 
+C 2.915476 -0.773193 2.608283 -1.514823 2.061553 -2.061553 
+C 1.514823 -2.608283 0.773193 -2.915476 0 -2.915476 
+C -0.773193 -2.915476 -1.514823 -2.608283 -2.061553 -2.061553 
+C -2.608283 -1.514823 -2.915476 -0.773193 -2.915476 0 
+C -2.915476 0.773193 -2.608283 1.514823 -2.061553 2.061553 
+C -1.514823 2.608283 -0.773193 2.915476 0 2.915476 
+z
+" style="stroke: #f4efe4; stroke-width: 1.4"/>
+    </defs>
+    <g>
+     <use xlink:href="#m449bc3e9cc" x="383.165217" y="211.934492" style="fill: #d8435a; stroke: #f4efe4; stroke-width: 1.4"/>
+    </g>
+   </g>
+   <g id="PathCollection_3">
+    <path d="M 86.817391 254.284992 
+C 87.926815 254.284992 88.99095 253.844214 89.775431 253.059732 
+C 90.559913 252.275251 91.000691 251.211116 91.000691 250.101692 
+C 91.000691 248.992268 90.559913 247.928134 89.775431 247.143652 
+C 88.99095 246.359171 87.926815 245.918392 86.817391 245.918392 
+C 85.707967 245.918392 84.643833 246.359171 83.859351 247.143652 
+C 83.07487 247.928134 82.634091 248.992268 82.634091 250.101692 
+C 82.634091 251.211116 83.07487 252.275251 83.859351 253.059732 
+C 84.643833 253.844214 85.707967 254.284992 86.817391 254.284992 
+L 86.817391 254.284992 
+z
+" style="fill: none; stroke: #1f1d1a"/>
+   </g>
+   <g id="PathCollection_4">
+    <path d="M 383.165217 216.117792 
+C 384.274642 216.117792 385.338776 215.677014 386.123257 214.892532 
+C 386.907739 214.108051 387.348518 213.043916 387.348518 211.934492 
+C 387.348518 210.825068 386.907739 209.760934 386.123257 208.976452 
+C 385.338776 208.191971 384.274642 207.751192 383.165217 207.751192 
+C 382.055793 207.751192 380.991659 208.191971 380.207177 208.976452 
+C 379.422696 209.760934 378.981917 210.825068 378.981917 211.934492 
+C 378.981917 213.043916 379.422696 214.108051 380.207177 214.892532 
+C 380.991659 215.677014 382.055793 216.117792 383.165217 216.117792 
+L 383.165217 216.117792 
+z
+" style="fill: none; stroke: #1f1d1a"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 101.467305 265.972432 
+Q 96.516342 260.608889 91.56538 255.245346 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_25">
+    <g id="patch_6">
+     <path d="M 110.817391 282.901692 
+C 112.620772 282.901692 114.350534 282.185201 115.625717 280.910018 
+C 116.9009 279.634835 117.617391 277.905073 117.617391 276.101692 
+C 117.617391 274.298311 116.9009 272.568549 115.625717 271.293366 
+C 114.350534 270.018183 112.620772 269.301692 110.817391 269.301692 
+C 109.01401 269.301692 107.284248 270.018183 106.009065 271.293366 
+C 104.733882 272.568549 104.017391 274.298311 104.017391 276.101692 
+C 104.017391 277.905073 104.733882 279.634835 106.009065 280.910018 
+C 107.284248 282.185201 109.01401 282.901692 110.817391 282.901692 
+z
+" style="fill: #1f1d1a"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="110.817391" y="278.3097" transform="rotate(-0 110.817391 278.3097)">1</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 367.294478 226.584406 
+Q 372.658021 221.633443 378.021563 216.682481 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_26">
+    <g id="patch_8">
+     <path d="M 357.165217 242.734492 
+C 358.968598 242.734492 360.698361 242.018001 361.973544 240.742818 
+C 363.248726 239.467635 363.965217 237.737873 363.965217 235.934492 
+C 363.965217 234.131111 363.248726 232.401349 361.973544 231.126166 
+C 360.698361 229.850983 358.968598 229.134492 357.165217 229.134492 
+C 355.361836 229.134492 353.632074 229.850983 352.356891 231.126166 
+C 351.081708 232.401349 350.365217 234.131111 350.365217 235.934492 
+C 350.365217 237.737873 351.081708 239.467635 352.356891 240.742818 
+C 353.632074 242.018001 355.361836 242.734492 357.165217 242.734492 
+z
+" style="fill: #1f1d1a"/>
+    </g>
+    <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="357.165217" y="238.1425" transform="rotate(-0 357.165217 238.1425)">2</text>
+   </g>
+  </g>
+  <g id="patch_9">
+   <path d="M 43.2 30.24 
+L 64.8 30.24 
+L 64.8 24.84 
+L 43.2 24.84 
+z
+" style="fill: #1c6d72"/>
+  </g>
+  <g id="line2d_16">
+   <path d="M 14.4 471.6 
+L 25.92 471.6 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_17">
+   <path d="M 14.4 471.6 
+L 14.4 460.08 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_18">
+   <path d="M 849.6 471.6 
+L 838.08 471.6 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_19">
+   <path d="M 849.6 471.6 
+L 849.6 460.08 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_20">
+   <path d="M 14.4 14.4 
+L 25.92 14.4 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_21">
+   <path d="M 14.4 14.4 
+L 14.4 25.92 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_22">
+   <path d="M 849.6 14.4 
+L 838.08 14.4 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_23">
+   <path d="M 849.6 14.4 
+L 849.6 25.92 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.7; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_24">
+   <path d="M 43.2 118.8 
+L 820.8 118.8 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 1.6"/>
+  </g>
+  <g id="line2d_25">
+   <path d="M 43.2 122.04 
+L 820.8 122.04 
+" style="fill: none; stroke: #1f1d1a; stroke-width: 0.5"/>
+  </g>
+  <g id="line2d_26">
+   <path d="M 43.2 438.48 
+L 820.8 438.48 
+" style="fill: none; stroke: #cdc5b3; stroke-width: 0.5"/>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: start; fill: #55504a" x="73.44" y="29.568008" transform="rotate(-0 73.44 29.568008)">PLATE 02</text>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="43.2" y="67.179551" transform="rotate(-0 43.2 67.179551)">Warmth adds trips; a rainy day takes back 4 to 16% of them.</text>
+  </g>
+  <g id="text_29">
+   <text style="font-style: italic; font-size: 12px; font-family: 'Charter'; text-anchor: start; fill: #55504a" x="43.2" y="88.079766" transform="rotate(-0 43.2 88.079766)">Mean trips per day by daily mean temperature, on days with under 2 mm of rain</text>
+  </g>
+  <g id="text_30">
+   <text style="font-style: italic; font-size: 12px; font-family: 'Charter'; text-anchor: start; fill: #55504a" x="43.2" y="104.999766" transform="rotate(-0 43.2 104.999766)">and on days with 2 mm or more. Rain bins with fewer than 5 days are left out.</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 7.2px; font-family: 'Menlo'; text-anchor: start; fill: #8f887b" x="43.2" y="457.646344" transform="rotate(-0 43.2 457.646344)">data/bikeshare/daily_summary.csv  n=365  sha 6cfd383   |   plotted: 365 days; 48 rainy</text>
+  </g>
+  <g id="text_32">
+   <text style="font-size: 7.2px; font-family: 'Menlo'; text-anchor: end; fill: #8f887b" x="820.8" y="457.646344" transform="rotate(-0 820.8 457.646344)">drawn 2026-10-09  |  template-charlie</text>
+  </g>
+  <g id="text_33">
+   <g id="patch_10">
+    <path d="M 624.96 154.4 
+C 626.763381 154.4 628.493143 153.683509 629.768326 152.408326 
+C 631.043509 151.133143 631.76 149.403381 631.76 147.6 
+C 631.76 145.796619 631.043509 144.066857 629.768326 142.791674 
+C 628.493143 141.516491 626.763381 140.8 624.96 140.8 
+C 623.156619 140.8 621.426857 141.516491 620.151674 142.791674 
+C 618.876491 144.066857 618.16 145.796619 618.16 147.6 
+C 618.16 149.403381 618.876491 151.133143 620.151674 152.408326 
+C 621.426857 153.683509 623.156619 154.4 624.96 154.4 
+z
+" style="fill: #1f1d1a"/>
+   </g>
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="624.96" y="149.808008" transform="rotate(-0 624.96 149.808008)">1</text>
+  </g>
+  <g id="text_34">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="151.483667" transform="rotate(-0 642.96 151.483667)">Dry days under 7 degrees average</text>
+  </g>
+  <g id="text_35">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="166.243667" transform="rotate(-0 642.96 166.243667)">300 trips; at 19 to 22 degrees,</text>
+  </g>
+  <g id="text_36">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="181.003667" transform="rotate(-0 642.96 181.003667)">461. That is 53% more.</text>
+  </g>
+  <g id="text_37">
+   <g id="patch_11">
+    <path d="M 624.96 223.16 
+C 626.763381 223.16 628.493143 222.443509 629.768326 221.168326 
+C 631.043509 219.893143 631.76 218.163381 631.76 216.36 
+C 631.76 214.556619 631.043509 212.826857 629.768326 211.551674 
+C 628.493143 210.276491 626.763381 209.56 624.96 209.56 
+C 623.156619 209.56 621.426857 210.276491 620.151674 211.551674 
+C 618.876491 212.826857 618.16 214.556619 618.16 216.36 
+C 618.16 218.163381 618.876491 219.893143 620.151674 221.168326 
+C 621.426857 222.443509 623.156619 223.16 624.96 223.16 
+z
+" style="fill: #1f1d1a"/>
+   </g>
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="624.96" y="218.568008" transform="rotate(-0 624.96 218.568008)">2</text>
+  </g>
+  <g id="text_38">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="220.243667" transform="rotate(-0 642.96 220.243667)">Rain cuts 4% to 16% off a day at</text>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="235.003667" transform="rotate(-0 642.96 235.003667)">the same temperature, most at</text>
+  </g>
+  <g id="text_40">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="249.763667" transform="rotate(-0 642.96 249.763667)">16-19 degrees.</text>
+  </g>
+  <g id="text_41">
+   <g id="patch_12">
+    <path d="M 624.96 291.92 
+C 626.763381 291.92 628.493143 291.203509 629.768326 289.928326 
+C 631.043509 288.653143 631.76 286.923381 631.76 285.12 
+C 631.76 283.316619 631.043509 281.586857 629.768326 280.311674 
+C 628.493143 279.036491 626.763381 278.32 624.96 278.32 
+C 623.156619 278.32 621.426857 279.036491 620.151674 280.311674 
+C 618.876491 281.586857 618.16 283.316619 618.16 285.12 
+C 618.16 286.923381 618.876491 288.653143 620.151674 289.928326 
+C 621.426857 291.203509 623.156619 291.92 624.96 291.92 
+z
+" style="fill: #1f1d1a"/>
+   </g>
+   <text style="font-size: 8.5px; font-family: 'Menlo'; text-anchor: middle; fill: #f4efe4" x="624.96" y="287.328008" transform="rotate(-0 624.96 287.328008)">3</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="289.003667" transform="rotate(-0 642.96 289.003667)">Above 22 degrees trips level off</text>
+  </g>
+  <g id="text_43">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="303.763667" transform="rotate(-0 642.96 303.763667)">(450). Only 48 days in the year</text>
+  </g>
+  <g id="text_44">
+   <text style="font-size: 10.5px; font-family: 'Charter'; text-anchor: start; fill: #1f1d1a" x="642.96" y="318.523667" transform="rotate(-0 642.96 318.523667)">had 2 mm or more of rain.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6e6653d7ae">
+   <rect x="72" y="146.16" width="511.2" height="246.24"/>
+  </clipPath>
+ </defs>
+</svg>
