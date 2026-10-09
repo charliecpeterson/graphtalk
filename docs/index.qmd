@@ -302,7 +302,7 @@ Same data, same export skill. Only the style skill changed.
 :::
 ::: {.column width="45%"}
 
-- **These slides:** [graphtalk.charlespeterson.dev](https://graphtalk.charlespeterson.dev)
+- **These slides:** [https://charlespeterson.dev/graphtalk](https://charlespeterson.dev/graphtalk)
 - **Code, data, skills:** [github.com/charliecpeterson/graphtalk](https://github.com/charliecpeterson/graphtalk/)
 - **Copy and paste:** `docs/prompts.md` has every prompt, and the appendix shows them too
 

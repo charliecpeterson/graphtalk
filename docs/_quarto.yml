@@ -23,7 +23,7 @@ format:
     date-format: "long"
     chalkboard: false
     controls: false
-    footer: "graphtalk.charlespeterson.dev"
+    footer: "https://charlespeterson.dev/graphtalk"
     width: 1280
     height: 720
     center: true
